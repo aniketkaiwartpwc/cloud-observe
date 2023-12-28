@@ -5,10 +5,10 @@ from airflow import configuration
 
 PROJECT_ID = "pg-us-n-app-119329"
 DATASET_ID = "pg-us-n-app-119329.exercise_citizen"
-TABLE_ID = "exercise_citizen_data" if os.environ.get("ENVIRONMENT") == "production" else "dev_exercise_citizen_data"
+TABLE_ID = "exercise_citizen_data" if os.environ.get("ENVIRONMENT") == "Production" else "dev_exercise_citizen_data"
 TEMP_BUCKET_LOCATION = 'gs://dataobs/tmp'
 CONF_BASE_DIR = os.path.dirname(configuration.conf.get('core', 'dags_folder'))
-BASE_DIR = f"gs://{os.environ.get('BUCKET_NAME')}" if os.environ.get('ENVIRONMENT') == 'production' else CONF_BASE_DIR
+BASE_DIR = f"gs://{os.environ.get('BUCKET_NAME')}" if os.environ.get('ENVIRONMENT') == 'Production' else CONF_BASE_DIR
 
 class TxtTransformer(beam.DoFn):
   def __init__(self, delimiter):
