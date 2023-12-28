@@ -4,8 +4,8 @@ import os
 from airflow import configuration
 
 PROJECT_ID = "pg-us-n-app-119329"
-DATASET_ID = "pg-us-n-app-119329.exercise_citizen"
-TABLE_ID = "exercise_citizen_data" if os.environ.get("ENVIRONMENT") == "Production" else "dev_exercise_citizen_data"
+DATASET_ID = "dataobs"
+TABLE_ID = "exercise_citizen_data" if os.environ.get("ENVIRONMENT") == "production" else "dev_exercise_citizen_data"
 TEMP_BUCKET_LOCATION = 'gs://dataobs/tmp'
 CONF_BASE_DIR = os.path.dirname(configuration.conf.get('core', 'dags_folder'))
 BASE_DIR = f"gs://{os.environ.get('BUCKET_NAME')}" if os.environ.get('ENVIRONMENT') == 'Production' else CONF_BASE_DIR
@@ -31,7 +31,7 @@ class TxtTransformer(beam.DoFn):
 def run(argv=None):
   print(f"Base Directory {BASE_DIR}")
   with beam.Pipeline() as pipeline:
-    file_path =  f'{BASE_DIR}/data/citizen.txt' if "gs://" in BASE_DIR else os.path.join(CONF_BASE_DIR, 'data', 'citizen.txt')
+    file_path ='gs://asia-south1-cloud-dataobs-1bb414f6-bucket/data/citizen.txt'
     print(f"File source path {file_path}")
     rows = pipeline | "Read txt file" >> beam.io.ReadFromTextWithFilename(file_path)
     pcoll_json = rows | "Transform txt to json/dict" >> beam.ParDo(TxtTransformer(','))
