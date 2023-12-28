@@ -17,7 +17,7 @@ COMPOSER_BUCKET_NAME = Variable.get("COMPOSER_BUCKET_NAME")
 BUCKET_NAME = Variable.get('BUCKET_NAME')
 OUTPUT = Variable.get('ALL_KEYWORDS_BQ_OUTPUT_TABLE')
 PY_FILE = (
-    f'gs://{COMPOSER_BUCKET_NAME}/dataflow-functions/csv_gcs_to_bigquery.py' if Variable.get('ENVIRONMENT') == 'production'
+    f'gs://{COMPOSER_BUCKET_NAME}/dataflow-functions/csv_gcs_to_bigquery.py' if Variable.get('ENVIRONMENT') == 'Production'
     else f"{os.path.dirname(configuration.conf.get('core', 'dags_folder'))}/dataflow-functions/csv_gcs_to_bigquery.py")
 PROJECT_ID = Variable.get('PROJECT_ID')
 GCS_TEMP_LOCATION = Variable.get('GCS_TEMP_LOCATION')
