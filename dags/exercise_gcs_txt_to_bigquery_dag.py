@@ -36,7 +36,7 @@ def exercise_gcs_txt_to_bigquery_dag():
 
 
     # [START dag_dependencies]
-    keyword_search_gcs_to_bigquery_job: TriggerDagRunOperator(
+    trigger_next_dag: TriggerDagRunOperator(
         task_id="keyword_search_gcs_to_bigquery_job",
         trigger_dag_id ="keywords_search_dag.py", #ID of the dag to be created
         execution_date = '{{ ds }}', #ds is built in airflow variable to set the execution date as YYYY-MM-DD
@@ -46,7 +46,7 @@ def exercise_gcs_txt_to_bigquery_dag():
     )
     # [END dag_dependencies]
 
-    start >> txt_bq_dataflow_job >> keyword_search_gcs_to_bigquery_job >> end
+    start >> txt_bq_dataflow_job >> trigger_next_dag >> end
 
 
 txt_to_bigquery_dataflow_etl = exercise_gcs_txt_to_bigquery_dag()
