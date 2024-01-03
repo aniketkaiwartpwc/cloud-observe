@@ -21,6 +21,8 @@ default_args = {
     tags=['dataflow-job']
 )
 
+
+
 def exercise_gcs_txt_to_bigquery_dag():
     txt_bq_dataflow_job = DataflowCreatePythonJobOperator(
         task_id='etl_txt_to_bq_dataflow_job',
@@ -34,10 +36,9 @@ def exercise_gcs_txt_to_bigquery_dag():
     trigger_next_dag: TriggerDagRunOperator(
         task_id="keyword_search_gcs_to_bigquery_job",
         trigger_dag_id ="keywords_search_dag.py", #ID of the dag to be created
-        execution_date = '{{ ds }}', #ds is built in airflow variable to set the execution date as YYYY-MM-DD
-        reset_dag = True,   #For multiple run
-        wait_for_completion = True,   #Ensure the task waits for completion of the dag being triggered
-        poke_interval = 3 # check whether triggered dag is completed every 3 seconds
+        wait_for_completion=False,
+        reset_dag_run=True,
+        poke_interval=30,
     )
     # [END dag_dependencies]
 
@@ -46,4 +47,4 @@ def exercise_gcs_txt_to_bigquery_dag():
 
     start >> txt_bq_dataflow_job >> trigger_next_dag >> end
 
-txt_to_bigquery_dataflow_etl = exercise_gcs_txt_to_bigquery_dag()
+txt_to_bigquery_dataflow_etl = exercise_gcs_txt_to_bigquery_dag(),
