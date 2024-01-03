@@ -30,11 +30,6 @@ def exercise_gcs_txt_to_bigquery_dag():
         location='asia-south1'
     )
 
-    start = EmptyOperator(task_id="start")
-    end = EmptyOperator(task_id="end")
-
-
-
     # [START dag_dependencies]
     trigger_next_dag: TriggerDagRunOperator(
         task_id="keyword_search_gcs_to_bigquery_job",
@@ -46,7 +41,9 @@ def exercise_gcs_txt_to_bigquery_dag():
     )
     # [END dag_dependencies]
 
-    start >> txt_bq_dataflow_job >> trigger_next_dag >> end
+    start = EmptyOperator(task_id="start")
+    end = EmptyOperator(task_id="end")
 
+    start >> txt_bq_dataflow_job >> trigger_next_dag >> end
 
 txt_to_bigquery_dataflow_etl = exercise_gcs_txt_to_bigquery_dag()
