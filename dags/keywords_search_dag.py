@@ -1,5 +1,6 @@
 import os
 from airflow.decorators import dag
+from airflow.utils.dates import days_ago
 from airflow.providers.apache.beam.operators.beam import BeamRunPythonPipelineOperator
 from airflow.providers.google.cloud.operators.dataflow import DataflowConfiguration
 from airflow.operators.dummy import DummyOperator
@@ -28,6 +29,7 @@ INPUT_PATH = f'gs://{BUCKET_NAME}/keyword-searches'
 @dag(
     schedule=None,
     default_args=default_args,
+    start_date=days_ago(1),
     catchup=False,
     tags=['dataflow-job']
 )
