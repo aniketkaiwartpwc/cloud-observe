@@ -31,6 +31,7 @@ INPUT_TABLE = f'{PROJECT_ID}:{KEYWORDS_BQ_TABLE}'
     schedule=None,
     default_args=default_args,
     catchup=False,
+    start_date=days_ago(1),
     tags=['dataflow-job']
 )
 def most_searched_keyword_dag():
