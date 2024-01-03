@@ -26,10 +26,9 @@ INPUT_PATH = f'gs://{BUCKET_NAME}/keyword-searches'
 
 
 @dag(
+    schedule=None,
     default_args=default_args,
-    schedule_interval='0 5 * * *',
-    start_date=datetime(2021, 3, 10),
-    end_date=datetime(2021, 3, 16),
+    catchup=False,
     tags=['dataflow-job']
 )
 def keywords_search_dag():
