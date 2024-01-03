@@ -11,7 +11,7 @@ class RowTransformer(beam.DoFn):
     from datetime import datetime
     csv_object = csv.reader(row.splitlines(), quotechar='"', delimiter=',', quoting=csv.QUOTE_ALL)
     user_id, search_keyword, search_result_count, created_at = next(csv_object)
-    created_date = datetime.strptime(created_at, '%Y-%m-%d %H:%M:%S %Z').strftime('%Y-%m-%d')
+    created_date = datetime.strptime(created_at, '%Y-%m-%d').strftime('%Y-%m-%d')
     return [{'user_id': int(user_id), 'search_keyword': search_keyword, 
              'search_result_count': int(search_result_count), 'created_date': created_date}]
 
