@@ -31,7 +31,7 @@ class TxtTransformer(beam.DoFn):
 def run(argv=None):
   print(f"Base Directory {BASE_DIR}")
   with beam.Pipeline() as pipeline:
-    file_path ='gs://asia-south1-cloud-dataobs-1bb414f6-bucket/data/citizen.txt'
+    file_path ='gs://asia-south1-cloud-dataobs-cf40bf82-bucket/data/citizen.txt'
     print(f"File source path {file_path}")
     rows = pipeline | "Read txt file" >> beam.io.ReadFromTextWithFilename(file_path)
     pcoll_json = rows | "Transform txt to json/dict" >> beam.ParDo(TxtTransformer(','))
