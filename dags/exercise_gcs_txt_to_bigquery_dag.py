@@ -2,7 +2,6 @@ import json
 import os
 from airflow.decorators import dag
 from airflow.utils.dates import days_ago
-from airflow.operators.trigger_dagrun import TriggerDagRunOperator
 from airflow.operators.empty import EmptyOperator
 #from airflow.contrib.operators.dataflow_operator import DataFlowPythonOperator -- This class is deprecated, use DataflowCreatePythonJobOperator instead
 from airflow.providers.google.cloud.operators.dataflow import DataflowCreatePythonJobOperator
@@ -32,19 +31,10 @@ def exercise_gcs_txt_to_bigquery_dag():
         location='asia-south1'
     )
 
-    # [START dag_dependencies]
-    trigger_next_dag: TriggerDagRunOperator(
-        task_id="keyword_search_gcs_to_bigquery_job",
-        trigger_dag_id ="keywords_search_dag.py", #ID of the dag to be created
-        wait_for_completion=False,
-        reset_dag_run=True,
-        poke_interval=30,
-    )
-    # [END dag_dependencies]
 
     start = EmptyOperator(task_id="start")
     end = EmptyOperator(task_id="end")
 
-    start >> txt_bq_dataflow_job >> trigger_next_dag >> end
+    start >> txt_bq_dataflow_job >> end
 
 txt_to_bigquery_dataflow_etl = exercise_gcs_txt_to_bigquery_dag(),
