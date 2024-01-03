@@ -4,6 +4,7 @@ from airflow.utils.dates import days_ago
 from airflow.providers.apache.beam.operators.beam import BeamRunPythonPipelineOperator
 from airflow.providers.google.cloud.operators.dataflow import DataflowConfiguration
 from airflow.operators.dummy import DummyOperator
+from airflow.operators.trigger_dagrun import TriggerDagRunOperator
 from airflow import configuration
 from airflow.models import Variable
 
@@ -27,9 +28,9 @@ INPUT_TABLE = f'{PROJECT_ID}:{KEYWORDS_BQ_TABLE}'
 
 
 @dag(
+    schedule=None,
     default_args=default_args,
-    schedule_interval='0 6 * * *',
-    start_date=days_ago(1),
+    catchup=False,
     tags=['dataflow-job']
 )
 def most_searched_keyword_dag():
@@ -57,10 +58,19 @@ def most_searched_keyword_dag():
         )
     )
 
+    trigger_next_dag = TriggerDagRunOperator(
+        task_id='trigger_events_dag',
+        trigger_dag_id='reverse_transactional_events_dag',
+        wait_for_completion=False,
+        reset_dag_run=True,
+        poke_interval=30,
+    )
+
+
     start = DummyOperator(task_id='start')
     end = DummyOperator(task_id='end')
 
-    start >> dataflow_task >> end
+    start >> dataflow_task >> trigger_next_dag >> end
 
 
 most_searched_keyword_etl = most_searched_keyword_dag()
