@@ -1,6 +1,7 @@
 import json
 import os
-from airflow.decorators import dag, task
+from airflow.decorators import dag
+from airflow.utils.dates import days_ago
 from airflow.operators.trigger_dagrun import TriggerDagRunOperator
 from airflow.operators.empty import EmptyOperator
 #from airflow.contrib.operators.dataflow_operator import DataFlowPythonOperator -- This class is deprecated, use DataflowCreatePythonJobOperator instead
@@ -16,6 +17,7 @@ default_args = {
     schedule=None,
     default_args=default_args,
     catchup=False,
+    start_date=days_ago(1),
     tags=['dataflow-job']
 )
 
