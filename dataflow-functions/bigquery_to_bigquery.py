@@ -51,7 +51,7 @@ def run(argv=None):
                                           'created_date,'
                                           'COUNT(search_result_count) AS search_count,' 
                                           'ROW_NUMBER() OVER(PARTITION BY created_date ORDER BY COUNT(search_result_count) DESC ) AS row_number ' \
-                                          'FROM blankspace_de_dwh.keyword_searches '
+                                          'FROM dataobs.all_keywords '
                                           'GROUP BY created_date,search_keyword ) ' \
 
                                         'SELECT ' 
