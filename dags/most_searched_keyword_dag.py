@@ -54,7 +54,7 @@ def most_searched_keyword_dag():
         pipeline_options=pipeline_options,
         dataflow_config=DataflowConfiguration(
             project_id=PROJECT_ID,
-            location="asia-south1",
+            location="asia",
             wait_until_finished=True
         )
     )
