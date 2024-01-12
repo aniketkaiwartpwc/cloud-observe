@@ -25,7 +25,7 @@ default_args = {
 def exercise_gcs_txt_to_bigquery_dag():
     txt_bq_dataflow_job = DataflowCreatePythonJobOperator(
         task_id='etl_txt_to_bq_dataflow_job',
-        py_file='gs://asia-south1-cloud-dataobs-cf40bf82-bucket/dataflow-functions/process_citizen_txt.py',
+        py_file='gs://asia-south1-cloud-dataobs-f2347466-bucket/dataflow-functions/process_citizen_txt.py',
         job_name='{{task.task_id}}',
         py_interpreter='python3',
         location='asia-south1'
