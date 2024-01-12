@@ -1,9 +1,9 @@
  {
    "PROJECT_ID": "pg-us-n-app-119329",
    "GCS_TEMP_LOCATION": "gs://dataobs/raw-data",
-   "COMPOSER_BUCKET_NAME": "asia-south1-cloud-dataobs-cf40bf82-bucket",
+   "COMPOSER_BUCKET_NAME": "asia-south1-cloud-dataobs-f2347466-bucket",
    "ENVIRONMENT": "Production",
-   "BUCKET_NAME": "asia-south1-cloud-dataobs-cf40bf82-bucket",
+   "BUCKET_NAME": "asia-south1-cloud-dataobs-f2347466-bucket",
    "ALL_KEYWORDS_BQ_OUTPUT_TABLE": "dataobs.all_keywords",
    "GCS_STG_LOCATION": "gs://dataobs/staging-data",
    "MOST_SEARCHED_KEYWORDS_BQ_OUTPUT_TABLE": "dataobs.most_searched_keywords",
