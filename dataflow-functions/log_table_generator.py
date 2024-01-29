@@ -9,6 +9,9 @@ from apache_beam.metrics import Metrics
 from apache_beam.options.pipeline_options import PipelineOptions
 import json
 import ast
+from datetime import datetime
+
+today_date = datetime.strftime(datetime.today(),'%Y/%m/%d')
 
 # setting up apache beam pipeline 
 beam_options = PipelineOptions(
@@ -29,7 +32,7 @@ class parseJSON(beam.DoFn):
             st = st.replace("'",'"')
 #            print("st_output",st)
             dag_status = sub_str.split()[3].split('.')[0]
-            status_list = ['FAILED','SUCCESS','UP_FOR_RETRY','SKIPPED']
+            status_list = ['FAILED','SUCCESS','UP_FOR_RETRY']
             if dag_status in status_list:
                 return st.split('\n')
             else:
@@ -44,11 +47,11 @@ def run():
     with beam.Pipeline(options=beam_options) as p:
 
         result = (
-                  p | 'Read from GCS' >> ReadFromText('gs://dataobs/airflow-worker/2024/01/17/*.json')
+                  p | 'Read from GCS' >> ReadFromText(f'gs://dataobs/airflow-worker/{today_date}/*.json')
                     | 'Parse logs to string representation of dict' >> beam.ParDo(parseJSON())
                     | 'Convert String to Dict' >> beam.Map(lambda x: json.loads(x))
         )
-      #  print("result",result)
+        #print("result",result)
 
         write_to_bq = result | 'Write parsed results to BigQuery' >> beam.io.Write(beam.io.WriteToBigQuery(
                                                                                 'airflowlog_parsed_data',
@@ -59,6 +62,7 @@ def run():
                                                                                 write_disposition=beam.io.BigQueryDisposition.WRITE_APPEND
                                                                             )
                                                                 )     
+
 
 if __name__ == "__main__":
     logger = logging.getLogger(__name__)
