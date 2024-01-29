@@ -71,7 +71,7 @@ with models.DAG(
     #dataset_ingest_to_GCS_dag Product
     t1_dataflow_job_file_to_bq_product = DataflowCreatePythonJobOperator(
         task_id="t1_dataflow_job_file_to_bq_product",
-        py_file="gs://asia-south1-cloud-dataobs-c1d6a270-bucket/dataflow-functions/prod_tbl_function.py",
+        py_file="gs://asia-south1-cloud-dataobs-359986fe-bucket/dataflow-functions/prod_tbl_function.py",
         job_name="product-file-to-bq-raw",
         options = {
                 'project': 'pg-us-n-app-119329'
@@ -88,7 +88,7 @@ with models.DAG(
     #dataset_ingest_to_GCS_dag Customer
     t1_dataflow_job_file_to_bq_customer = DataflowCreatePythonJobOperator(
         task_id="t1_dataflow_job_file_to_bq_customer",
-        py_file="gs://asia-south1-cloud-dataobs-c1d6a270-bucket/dataflow-functions/customer_tbl_function.py",
+        py_file="gs://asia-south1-cloud-dataobs-359986fe-bucket/dataflow-functions/customer_tbl_function.py",
         job_name="customer-file-to-bq-raw",
         options = {
                 'project': 'pg-us-n-app-119329'
@@ -105,7 +105,7 @@ with models.DAG(
     #dataset_ingest_to_GCS_dag Employee
     t1_dataflow_job_file_to_bq_employee = DataflowCreatePythonJobOperator(
         task_id="t1_dataflow_job_file_to_bq_employee",
-        py_file="gs://asia-south1-cloud-dataobs-c1d6a270-bucket/dataflow-functions/emp_tbl_function.py",
+        py_file="gs://asia-south1-cloud-dataobs-359986fe-bucket/dataflow-functions/emp_tbl_function.py",
         job_name="employee-file-to-bq-raw",
         options = {
                 'project': 'pg-us-n-app-119329'
@@ -122,7 +122,7 @@ with models.DAG(
     #dataset_ingest_to_GCS_dag Sales
     t1_dataflow_job_file_to_bq_sales = DataflowCreatePythonJobOperator(
         task_id="t1_dataflow_job_file_to_bq_sales",
-        py_file="gs://asia-south1-cloud-dataobs-c1d6a270-bucket/dataflow-functions/sales_tbl_function.py",
+        py_file="gs://asia-south1-cloud-dataobs-359986fe-bucket/dataflow-functions/sales_tbl_function.py",
         job_name="sales-file-to-bq-raw",
         options = {
                 'project': 'pg-us-n-app-119329'
@@ -139,7 +139,7 @@ with models.DAG(
     #dataset_ingest_to_GCS_dag Gender
     t1_dataflow_job_file_to_bq_gender = DataflowCreatePythonJobOperator(
         task_id="t1_dataflow_job_file_to_bq_gender",
-        py_file="gs://asia-south1-cloud-dataobs-c1d6a270-bucket/dataflow-functions/gender_tbl_function.py",
+        py_file="gs://asia-south1-cloud-dataobs-359986fe-bucket/dataflow-functions/gender_tbl_function.py",
         job_name="gender-file-to-bq-raw",
         options = {
                 'project': 'pg-us-n-app-119329'
