@@ -35,7 +35,7 @@ with models.DAG(
 ) as dag:
     t1_dataflow_job_file_to_bq = DataflowCreatePythonJobOperator(
         task_id="t1_dataflow_job_file_to_bq",
-        py_file="gs://asia-south1-cloud-dataobs-c1d6a270-bucket/dataflow-functions/main_data.py",
+        py_file="gs://asia-south1-cloud-dataobs-359986fe-bucket/dataflow-functions/main_data.py",
         job_name="mobile-price-file-to-bq-raw",
         options = {
                 'project': 'pg-us-n-app-119329'
