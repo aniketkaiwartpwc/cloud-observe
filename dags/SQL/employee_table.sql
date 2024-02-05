@@ -8,6 +8,7 @@ SELECT
   trim(City),
   trim(State),
   trim(Country),
-  trim(Occupation)
+  trim(Occupation),
+  TRIM(FORMAT_TIMESTAMP('%Y-%m-%d %H:%M:%S', Job_Run_Date))
 FROM
   `pg-us-n-app-119329.dataobs.employee_table`
