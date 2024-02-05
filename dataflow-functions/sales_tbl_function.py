@@ -8,12 +8,12 @@ import re
 
 
 table_spec = 'dataobs.sales_table'
-table_schema='Invoice_ID:INT64, Branch:STRING, City:STRING, Customer_type:STRING, Gender:STRING, Product_line:STRING, Total:FLOAT'
+table_schema='Invoice_ID:INT64, Branch:STRING, City:STRING, Customer_type:STRING, Gender:STRING, Product_line:STRING, Total:FLOAT, Job_Run_Date:TIMESTAMP'
 
 class DataIngestion:
     def parse_method(self, string_input):
         values = re.split(",", re.sub('\r\n', '', re.sub('"', '',string_input)))
-        row = dict(zip(('Invoice_ID', 'Branch', 'City', 'Customer_type', 'Gender', 'Product_line', 'Total'),values))
+        row = dict(zip(('Invoice_ID', 'Branch', 'City', 'Customer_type', 'Gender', 'Product_line', 'Total', 'Job_Run_Date'),values))
         return row
 
 class GreaterThanAvg(beam.DoFn):
@@ -54,7 +54,7 @@ def run(argv=None, save_main_session=True):
             | "Data Ingestion " >> beam.Map(lambda s: dataingestion.parse_method(s)) \
             #| "write to file " >> beam.io.WriteToText(known_args.output)
             | "Write to BQ" >> beam.io.WriteToBigQuery(table_spec, schema=table_schema,
-                                                      write_disposition=beam.io.BigQueryDisposition.WRITE_TRUNCATE,
+                                                      write_disposition=beam.io.BigQueryDisposition.WRITE_APPEND,
                                                        create_disposition=beam.io.BigQueryDisposition.CREATE_IF_NEEDED)
             )
 

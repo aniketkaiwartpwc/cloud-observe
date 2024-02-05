@@ -8,12 +8,12 @@ import re
 
 
 table_spec = 'dataobs.employee_table'
-table_schema='Employee_ID:INT64, First_Name:STRING, Last_Name:STRING, Email:STRING, Age:INT64, City:STRING, State:STRING, Country:STRING, Occupation:STRING'
+table_schema='Employee_ID:INT64, First_Name:STRING, Last_Name:STRING, Email:STRING, Age:INT64, City:STRING, State:STRING, Country:STRING, Occupation:STRING, Job_Run_Date:TIMESTAMP'
 
 class DataIngestion:
     def parse_method(self, string_input):
         values = re.split(",", re.sub('\r\n', '', re.sub('"', '',string_input)))
-        row = dict(zip(('Employee_ID', 'First_Name', 'Last_Name', 'Email', 'Age', 'City', 'State', 'Country', 'Occupation'),values))
+        row = dict(zip(('Employee_ID', 'First_Name', 'Last_Name', 'Email', 'Age', 'City', 'State', 'Country', 'Occupation', 'Job_Run_Date'),values))
         return row
 
 class GreaterThanAvg(beam.DoFn):
@@ -54,7 +54,7 @@ def run(argv=None, save_main_session=True):
             | "Data Ingestion " >> beam.Map(lambda s: dataingestion.parse_method(s)) \
             #| "write to file " >> beam.io.WriteToText(known_args.output)
             | "Write to BQ" >> beam.io.WriteToBigQuery(table_spec, schema=table_schema,
-                                                      write_disposition=beam.io.BigQueryDisposition.WRITE_TRUNCATE,
+                                                      write_disposition=beam.io.BigQueryDisposition.WRITE_APPEND,
                                                        create_disposition=beam.io.BigQueryDisposition.CREATE_IF_NEEDED)
             )
 
