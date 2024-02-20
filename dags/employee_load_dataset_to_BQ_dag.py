@@ -45,20 +45,7 @@ with models.DAG(
         location = LOCATION,
         sql = f'SELECT count(*) FROM `{PROJECT_ID}.dataobs.employee_table`'
         )
-    
-    t4_transform_table_employee = BigQueryOperator(
-        task_id = 't4_transform_table_employee',
-        use_legacy_sql = False,
-        location = LOCATION,
-        sql = '/SQL/employee_transform_table.sql'
-        )
-    
-    t5_check_dataset_employee = BigQueryCheckOperator(
-        task_id = 't5_check_dataset_employee',
-        use_legacy_sql=False,
-        location = LOCATION,
-        sql = f'SELECT count(*) FROM `{PROJECT_ID}.dataobs.employee_transform_table`'
-        )
+
     
     t6_trigger_archived_dag_employee = TriggerDagRunOperator(
         task_id='t6_trigger_archived_dag_employee',
@@ -80,8 +67,6 @@ with models.DAG(
         )
     
 start_pipeline >> t3_check_dataset_employee
-t3_check_dataset_employee >> t4_transform_table_employee
-t4_transform_table_employee >> t5_check_dataset_employee
-t5_check_dataset_employee >> t6_trigger_archived_dag_employee
+t3_check_dataset_employee >> t6_trigger_archived_dag_employee
 t6_trigger_archived_dag_employee >> success  
     

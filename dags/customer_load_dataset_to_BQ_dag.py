@@ -45,20 +45,7 @@ with models.DAG(
         location = LOCATION,
         sql = f'SELECT count(*) FROM `{PROJECT_ID}.dataobs.customer_table`'
         )
-    
-    t4_transform_table_customer = BigQueryOperator(
-        task_id = 't4_transform_table_customer',
-        use_legacy_sql = False,
-        location = LOCATION,
-        sql = '/SQL/customer_transform_table.sql'
-        )
-    
-    t5_check_dataset_customer = BigQueryCheckOperator(
-        task_id = 't5_check_dataset_customer',
-        use_legacy_sql=False,
-        location = LOCATION,
-        sql = f'SELECT count(*) FROM `{PROJECT_ID}.dataobs.customer_transform_table`'
-        )
+
     
     t6_trigger_archived_dag_customer = TriggerDagRunOperator(
         task_id='t6_trigger_archived_dag_customer',
@@ -80,8 +67,6 @@ with models.DAG(
         )
     
 start_pipeline >> t3_check_dataset_customer
-t3_check_dataset_customer >> t4_transform_table_customer
-t4_transform_table_customer >> t5_check_dataset_customer
-t5_check_dataset_customer >> t6_trigger_archived_dag_customer
+t3_check_dataset_customer >> t6_trigger_archived_dag_customer
 t6_trigger_archived_dag_customer >> success  
     

@@ -1,20 +1,17 @@
 import datetime
+from itertools import product
 
 import airflow
-from airflow.operators import bash_operator
 from airflow.contrib.operators.bigquery_operator import BigQueryOperator
 from airflow.providers.google.cloud.transfers.gcs_to_gcs import GCSToGCSOperator
 from airflow import models
 from airflow.operators.dummy import DummyOperator
-from airflow.providers.google.cloud.operators.dataflow import DataflowCreatePythonJobOperator
-from airflow.operators.trigger_dagrun import TriggerDagRunOperator
-from airflow.providers.google.cloud.operators.bigquery import BigQueryCheckOperator
 from typing import Literal
 from airflow.operators.python import BranchPythonOperator
 
+file_name_employee="employee_data.csv"
+
 YESTERDAY = datetime.datetime.now() - datetime.timedelta(days=1)
-PROJECT_ID="pg-us-n-app-119329"
-LOCATION = "asia-south1"
 
 default_args = {
     'project': 'pg-us-n-app-119329',
@@ -28,9 +25,8 @@ default_args = {
     'start_date': YESTERDAY,
 }
 
-
 with models.DAG(
-        "gender_load_dataset_to_BQ_dag",
+        "employee_archived_file_dag",
         default_args=default_args,
         start_date=datetime.datetime(2024, 1, 8),
         # Not scheduled, trigger only
@@ -38,23 +34,15 @@ with models.DAG(
         schedule_interval='0 6 * * 4-5',
 ) as dag:
     
-    #data check before transformation
-    t3_check_dataset_gender = BigQueryCheckOperator(
-        task_id = 't3_check_dataset_gender',
-        use_legacy_sql=False,
-        location = LOCATION,
-        sql = f'SELECT count(*) FROM `{PROJECT_ID}.dataobs.gender_table`'
-        )
-    
-    
-    t6_trigger_archived_dag_gender = TriggerDagRunOperator(
-        task_id='t6_trigger_archived_dag_gender',
-        trigger_dag_id='gender_archived_file_dag',
-        wait_for_completion=True,
-        reset_dag_run=True,
-        poke_interval=30,
-        trigger_rule='none_failed_min_one_success'
+    t7_archive_file_employee = GCSToGCSOperator(
+        task_id="t7_archive_file_employee",
+        source_bucket="dataobs",
+        source_object="employee_data.csv",
+        destination_bucket="pg-us-n-app-119329",
+        destination_object="archive/"+str(datetime.date.today())+"-"+file_name_employee,
+        move_object=True,
     )
+
 
     start_pipeline = DummyOperator(
         task_id = 'start_pipeline',
@@ -66,7 +54,6 @@ with models.DAG(
         dag = dag
         )
     
-start_pipeline >> t3_check_dataset_gender
-t3_check_dataset_gender >> t6_trigger_archived_dag_gender
-t6_trigger_archived_dag_gender >> success  
-    
+start_pipeline >> t7_archive_file_employee 
+
+t7_archive_file_employee >> success

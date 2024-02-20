@@ -9,6 +9,8 @@ from airflow.providers.google.cloud.operators.dataflow import DataflowCreatePyth
 from airflow.operators.trigger_dagrun import TriggerDagRunOperator
 from typing import Literal
 from airflow.operators.python import BranchPythonOperator
+import time
+from airflow.operators.python_operator import PythonOperator
 
 YESTERDAY = datetime.datetime.now() - datetime.timedelta(days=1)
 PROJECT_ID="pg-us-n-app-119329"
@@ -35,6 +37,9 @@ with models.DAG(
         schedule_interval='0 6 * * 4-5',
 ) as dag:
     
+    def delay():
+     time.sleep(600)
+    
     
  
     #dataset_ingest_to_GCS_dag Product
@@ -54,8 +59,9 @@ with models.DAG(
 
     )
 
-    start_pipeline = DummyOperator(
-        task_id = 'start_pipeline',
+    start_pipeline = PythonOperator(
+        task_id='start_pipeline',
+        python_callable=delay,
         dag = dag
         )
     
