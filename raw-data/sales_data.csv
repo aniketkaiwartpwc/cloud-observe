@@ -1,0 +1,1001 @@
+Invoice_ID,Branch,City,Customer_type,Gender,Product_line,Total
+895006535,A,Yangon,Member,Female,Health and beauty,548.9715
+456178562,C,Naypyitaw,Normal,Female,Electronic accessories,80.22
+613397363,A,Yangon,Normal,Male,Home and lifestyle,340.5255
+531870930,A,Yangon,Member,Male,Health and beauty,489.048
+743946532,A,Yangon,Normal,Male,Sports and travel,634.3785
+297915794,C,Naypyitaw,Normal,Male,Electronic accessories,627.6165
+683895176,A,Yangon,Member,Female,Electronic accessories,433.692
+534154641,C,Naypyitaw,Normal,Female,Home and lifestyle,772.38
+269798387,A,Yangon,Member,Female,Health and beauty,76.146
+785968675,B,Mandalay,Member,Female,Food and beverages,172.746
+821965446,B,Mandalay,Member,Female,Fashion accessories,60.816
+511495397,B,Mandalay,Member,Male,Electronic accessories,107.142
+796848103,A,Yangon,Normal,Female,Electronic accessories,246.4875
+735807961,A,Yangon,Normal,Male,Food and beverages,453.495
+659045581,A,Yangon,Normal,Female,Health and beauty,749.49
+907472196,B,Mandalay,Member,Female,Sports and travel,590.436
+607887921,A,Yangon,Member,Female,Health and beauty,506.6355
+391000250,A,Yangon,Normal,Male,Sports and travel,457.443
+922661036,A,Yangon,Normal,Male,Food and beverages,172.2105
+671388447,B,Mandalay,Normal,Female,Home and lifestyle,84.63
+882092475,C,Naypyitaw,Member,Male,Electronic accessories,451.71
+809680715,B,Mandalay,Normal,Male,Health and beauty,277.137
+218694210,B,Mandalay,Normal,Male,Home and lifestyle,69.72
+539273118,A,Yangon,Normal,Male,Electronic accessories,181.44
+337286265,A,Yangon,Member,Male,Sports and travel,279.1845
+336941124,A,Yangon,Member,Female,Home and lifestyle,441.756
+527421357,B,Mandalay,Normal,Male,Fashion accessories,35.196
+482368627,A,Yangon,Normal,Female,Fashion accessories,184.107
+494540894,B,Mandalay,Normal,Female,Food and beverages,463.89
+697005347,A,Yangon,Normal,Male,Health and beauty,235.2105
+540309116,B,Mandalay,Normal,Male,Fashion accessories,494.1825
+430480501,B,Mandalay,Member,Male,Sports and travel,737.7615
+439743429,B,Mandalay,Normal,Male,Sports and travel,703.752
+759073915,A,Yangon,Normal,Male,Health and beauty,202.818
+498612540,C,Naypyitaw,Member,Female,Food and beverages,417.564
+257860038,C,Naypyitaw,Member,Female,Sports and travel,71.526
+502892159,A,Yangon,Member,Male,Sports and travel,328.755
+865123231,A,Yangon,Normal,Female,Electronic accessories,575.316
+275090745,C,Naypyitaw,Normal,Female,Health and beauty,461.328
+635619345,B,Mandalay,Member,Male,Home and lifestyle,253.008
+397327940,B,Mandalay,Member,Female,Home and lifestyle,91.056
+505867143,C,Naypyitaw,Member,Male,Home and lifestyle,117.831
+908079816,B,Mandalay,Member,Female,Sports and travel,435.456
+848085572,C,Naypyitaw,Member,Female,Food and beverages,829.08
+382195029,C,Naypyitaw,Member,Male,Health and beauty,32.277
+599499986,B,Mandalay,Member,Female,Electronic accessories,394.632
+306817343,B,Mandalay,Member,Male,Health and beauty,535.7205
+889283686,B,Mandalay,Member,Female,Food and beverages,189.0945
+254315951,B,Mandalay,Member,Male,Electronic accessories,119.259
+984887476,C,Naypyitaw,Member,Female,Fashion accessories,867.615
+587214925,C,Naypyitaw,Member,Male,Food and beverages,671.79
+860639778,A,Yangon,Member,Female,Food and beverages,234.0975
+549506106,B,Mandalay,Member,Female,Fashion accessories,75.054
+945343973,C,Naypyitaw,Member,Male,Fashion accessories,16.2015
+401667398,B,Mandalay,Normal,Male,Home and lifestyle,33.936
+701068099,C,Naypyitaw,Normal,Female,Electronic accessories,722.232
+483517865,A,Yangon,Member,Male,Home and lifestyle,93.114
+987867658,A,Yangon,Normal,Male,Health and beauty,752.64
+774962666,A,Yangon,Member,Female,Home and lifestyle,759.675
+992646010,C,Naypyitaw,Normal,Male,Electronic accessories,192.843
+548363410,C,Naypyitaw,Member,Female,Sports and travel,77.931
+272577765,C,Naypyitaw,Normal,Male,Home and lifestyle,351.099
+777693084,B,Mandalay,Member,Female,Sports and travel,520.4115
+205815146,A,Yangon,Member,Male,Sports and travel,166.005
+785399329,B,Mandalay,Member,Male,Health and beauty,318.108
+762543804,A,Yangon,Member,Male,Health and beauty,166.635
+366577362,C,Naypyitaw,Normal,Female,Health and beauty,70.287
+457481778,B,Mandalay,Member,Female,Fashion accessories,614.943
+840859016,A,Yangon,Normal,Male,Sports and travel,827.085
+991202666,A,Yangon,Member,Female,Health and beauty,19.2465
+980335020,C,Naypyitaw,Normal,Male,Food and beverages,939.54
+989852074,C,Naypyitaw,Normal,Male,Fashion accessories,652.26
+848968249,B,Mandalay,Member,Female,Food and beverages,152.838
+931698982,C,Naypyitaw,Normal,Female,Electronic accessories,478.233
+747374663,A,Yangon,Normal,Male,Home and lifestyle,705.6315
+258826762,C,Naypyitaw,Normal,Female,Electronic accessories,437.325
+996824345,C,Naypyitaw,Member,Male,Fashion accessories,463.428
+767173633,A,Yangon,Member,Female,Fashion accessories,189.0945
+640219630,C,Naypyitaw,Member,Female,Food and beverages,822.255
+936063198,C,Naypyitaw,Normal,Female,Health and beauty,106.995
+759776556,C,Naypyitaw,Normal,Female,Health and beauty,624.897
+843528272,B,Mandalay,Normal,Female,Food and beverages,304.542
+227520879,C,Naypyitaw,Normal,Male,Food and beverages,161.7
+228827972,C,Naypyitaw,Member,Female,Food and beverages,337.512
+946778309,C,Naypyitaw,Member,Male,Sports and travel,256.7775
+702319811,C,Naypyitaw,Normal,Female,Sports and travel,610.491
+505545104,C,Naypyitaw,Normal,Male,Fashion accessories,401.73
+676532662,A,Yangon,Member,Male,Food and beverages,362.943
+720683950,A,Yangon,Normal,Male,Sports and travel,44.5935
+698806576,B,Mandalay,Normal,Female,Health and beauty,485.037
+789502136,C,Naypyitaw,Member,Female,Home and lifestyle,198.996
+832075675,C,Naypyitaw,Normal,Female,Sports and travel,471.03
+481266964,A,Yangon,Member,Female,Sports and travel,161.553
+222741524,B,Mandalay,Member,Male,Health and beauty,608.202
+970140285,C,Naypyitaw,Normal,Male,Health and beauty,94.2375
+202512754,A,Yangon,Normal,Male,Electronic accessories,102.018
+761050701,B,Mandalay,Normal,Male,Health and beauty,922.635
+816080118,C,Naypyitaw,Normal,Female,Electronic accessories,78.435
+369590423,A,Yangon,Normal,Male,Food and beverages,166.1625
+426448205,B,Mandalay,Normal,Male,Home and lifestyle,521.01
+276442412,C,Naypyitaw,Member,Male,Fashion accessories,51.1455
+567631003,C,Naypyitaw,Normal,Male,Fashion accessories,742.2975
+388629989,C,Naypyitaw,Normal,Female,Electronic accessories,218.0115
+714216148,A,Yangon,Normal,Male,Food and beverages,367.038
+429738565,B,Mandalay,Normal,Male,Health and beauty,223.0725
+351611038,A,Yangon,Member,Male,Electronic accessories,931.035
+637458205,C,Naypyitaw,Normal,Male,Fashion accessories,172.494
+537288284,A,Yangon,Normal,Male,Sports and travel,391.419
+573592170,C,Naypyitaw,Normal,Female,Food and beverages,321.111
+742642659,C,Naypyitaw,Member,Male,Electronic accessories,860.685
+273299171,B,Mandalay,Member,Female,Sports and travel,34.629
+264672845,C,Naypyitaw,Member,Female,Health and beauty,309.3615
+762503565,B,Mandalay,Normal,Female,Fashion accessories,535.374
+974040862,A,Yangon,Member,Male,Home and lifestyle,548.7615
+225819160,C,Naypyitaw,Member,Female,Home and lifestyle,763.4655
+982675232,C,Naypyitaw,Normal,Female,Fashion accessories,85.113
+778332931,B,Mandalay,Member,Male,Fashion accessories,115.185
+873919915,B,Mandalay,Member,Male,Fashion accessories,53.928
+288516078,A,Yangon,Normal,Female,Food and beverages,115.08
+689915835,B,Mandalay,Normal,Male,Home and lifestyle,112.224
+250317321,A,Yangon,Normal,Female,Electronic accessories,836.304
+260810122,C,Naypyitaw,Member,Male,Sports and travel,419.832
+756958887,B,Mandalay,Member,Male,Sports and travel,944.622
+200855475,C,Naypyitaw,Member,Male,Home and lifestyle,536.844
+333594366,B,Mandalay,Member,Female,Fashion accessories,474.348
+238388706,A,Yangon,Normal,Female,Home and lifestyle,688.6215
+337396265,A,Yangon,Normal,Female,Sports and travel,169.3125
+979640068,C,Naypyitaw,Normal,Female,Fashion accessories,299.8485
+253072222,C,Naypyitaw,Member,Female,Food and beverages,575.736
+393406881,B,Mandalay,Normal,Female,Sports and travel,853.146
+808582511,B,Mandalay,Normal,Female,Fashion accessories,291.207
+420655720,A,Yangon,Member,Female,Sports and travel,580.419
+531870625,B,Mandalay,Normal,Female,Sports and travel,146.328
+901720343,B,Mandalay,Member,Male,Electronic accessories,550.935
+606404418,C,Naypyitaw,Normal,Female,Health and beauty,512.19
+267984493,C,Naypyitaw,Normal,Male,Fashion accessories,284.193
+223535457,A,Yangon,Normal,Female,Electronic accessories,138.1275
+243378472,A,Yangon,Member,Female,Home and lifestyle,216.846
+831145575,B,Mandalay,Normal,Male,Sports and travel,545.055
+368195175,A,Yangon,Normal,Male,Sports and travel,609
+648040868,C,Naypyitaw,Member,Female,Sports and travel,942.9
+859556370,C,Naypyitaw,Member,Male,Health and beauty,950.25
+378690296,C,Naypyitaw,Member,Female,Health and beauty,720.3
+377871621,C,Naypyitaw,Member,Female,Food and beverages,31.9305
+925526466,A,Yangon,Normal,Female,Home and lifestyle,491.085
+306352581,C,Naypyitaw,Normal,Female,Health and beauty,291.438
+788739457,A,Yangon,Member,Female,Fashion accessories,316.47
+541385402,C,Naypyitaw,Normal,Male,Health and beauty,277.788
+602316909,B,Mandalay,Member,Male,Home and lifestyle,603.624
+838213007,A,Yangon,Normal,Male,Health and beauty,272.664
+639910147,B,Mandalay,Member,Female,Fashion accessories,384.468
+334365538,C,Naypyitaw,Member,Male,Sports and travel,254.016
+702766604,A,Yangon,Normal,Male,Fashion accessories,786.618
+786038733,C,Naypyitaw,Normal,Female,Food and beverages,103.824
+921428182,C,Naypyitaw,Normal,Female,Sports and travel,680.148
+647412749,A,Yangon,Member,Male,Food and beverages,484.5225
+754448051,B,Mandalay,Member,Male,Electronic accessories,75.7785
+404736526,B,Mandalay,Normal,Male,Home and lifestyle,263.97
+271727704,B,Mandalay,Member,Male,Health and beauty,918.729
+797414167,B,Mandalay,Normal,Male,Sports and travel,588.357
+843418527,C,Naypyitaw,Normal,Female,Food and beverages,362.712
+332631214,A,Yangon,Normal,Male,Sports and travel,66.8745
+293340719,A,Yangon,Normal,Male,Food and beverages,336.5565
+878732039,C,Naypyitaw,Normal,Male,Sports and travel,160.44
+694706263,B,Mandalay,Normal,Male,Food and beverages,418.95
+361187245,B,Mandalay,Member,Male,Health and beauty,357.588
+848367106,C,Naypyitaw,Normal,Male,Home and lifestyle,1003.59
+845406723,A,Yangon,Normal,Male,Fashion accessories,1039.29
+952229843,A,Yangon,Normal,Male,Food and beverages,323.064
+273947543,A,Yangon,Member,Male,Sports and travel,510.972
+882734230,A,Yangon,Normal,Male,Health and beauty,367.5525
+688368392,B,Mandalay,Member,Male,Food and beverages,420.2625
+579797820,C,Naypyitaw,Normal,Male,Electronic accessories,175.14
+340677390,B,Mandalay,Member,Male,Electronic accessories,333.207
+958896709,B,Mandalay,Normal,Male,Food and beverages,166.236
+214273097,A,Yangon,Member,Male,Home and lifestyle,319.788
+368923155,A,Yangon,Member,Male,Food and beverages,186.228
+213239298,C,Naypyitaw,Normal,Female,Fashion accessories,165.4485
+271710688,A,Yangon,Normal,Male,Food and beverages,465.444
+325057297,C,Naypyitaw,Member,Male,Health and beauty,273.42
+981752876,C,Naypyitaw,Normal,Male,Fashion accessories,472.311
+814105079,C,Naypyitaw,Member,Male,Food and beverages,323.148
+531654440,A,Yangon,Member,Male,Sports and travel,162.75
+635371960,C,Naypyitaw,Normal,Male,Health and beauty,288.204
+970381875,A,Yangon,Normal,Female,Sports and travel,90.699
+702204114,B,Mandalay,Member,Male,Food and beverages,56.952
+310005987,B,Mandalay,Member,Female,Home and lifestyle,793.716
+550932237,B,Mandalay,Member,Male,Home and lifestyle,195.174
+830004686,A,Yangon,Normal,Male,Home and lifestyle,77.7735
+988398867,C,Naypyitaw,Normal,Female,Home and lifestyle,293.202
+752613888,B,Mandalay,Normal,Female,Home and lifestyle,242.676
+634232490,B,Mandalay,Normal,Female,Fashion accessories,154.392
+570013676,C,Naypyitaw,Normal,Female,Food and beverages,829.71
+820739378,B,Mandalay,Normal,Male,Home and lifestyle,107.31
+390351307,A,Yangon,Normal,Male,Electronic accessories,171.7275
+618486074,C,Naypyitaw,Member,Female,Fashion accessories,78.0045
+369284999,C,Naypyitaw,Member,Male,Health and beauty,91.77
+782089881,A,Yangon,Normal,Female,Home and lifestyle,26.5545
+913240445,C,Naypyitaw,Normal,Male,Health and beauty,174.3
+742100959,C,Naypyitaw,Member,Female,Food and beverages,374.7975
+519511666,C,Naypyitaw,Member,Female,Sports and travel,120.645
+515817329,B,Mandalay,Member,Female,Electronic accessories,241.458
+334244498,C,Naypyitaw,Normal,Male,Electronic accessories,451.3635
+710737662,B,Mandalay,Member,Male,Health and beauty,271.95
+482460611,B,Mandalay,Member,Male,Home and lifestyle,93.2925
+819866164,A,Yangon,Normal,Female,Health and beauty,217.6335
+578097896,C,Naypyitaw,Member,Female,Electronic accessories,629.8425
+229948167,C,Naypyitaw,Member,Female,Home and lifestyle,299.565
+996137291,B,Mandalay,Normal,Female,Fashion accessories,95.6655
+860983801,B,Mandalay,Normal,Female,Electronic accessories,942.4485
+267949274,A,Yangon,Normal,Male,Electronic accessories,247.8735
+541453161,C,Naypyitaw,Normal,Female,Food and beverages,881.307
+926155259,B,Mandalay,Normal,Male,Home and lifestyle,484.89
+715479210,B,Mandalay,Normal,Male,Sports and travel,146.223
+608378834,B,Mandalay,Member,Female,Sports and travel,217.6335
+444273014,A,Yangon,Normal,Male,Home and lifestyle,19.194
+225769433,B,Mandalay,Normal,Female,Sports and travel,130.0425
+923231785,A,Yangon,Member,Female,Electronic accessories,298.116
+814616989,B,Mandalay,Normal,Male,Fashion accessories,796.908
+771923852,B,Mandalay,Normal,Female,Food and beverages,180.621
+688714219,B,Mandalay,Normal,Male,Electronic accessories,285.705
+911003887,B,Mandalay,Normal,Male,Food and beverages,456.288
+797276160,C,Naypyitaw,Normal,Male,Electronic accessories,62.0025
+368851865,C,Naypyitaw,Member,Female,Fashion accessories,13.167
+962734346,A,Yangon,Normal,Male,Food and beverages,90.825
+631551548,C,Naypyitaw,Member,Female,Sports and travel,183.036
+709463819,B,Mandalay,Member,Male,Health and beauty,655.5465
+794534528,C,Naypyitaw,Member,Male,Electronic accessories,155.652
+649635884,B,Mandalay,Member,Female,Electronic accessories,571.41
+730858831,A,Yangon,Normal,Female,Home and lifestyle,532.728
+908740318,B,Mandalay,Normal,Female,Fashion accessories,170.877
+447288944,B,Mandalay,Member,Female,Electronic accessories,33.3585
+854818226,B,Mandalay,Normal,Female,Health and beauty,794.6505
+470417094,B,Mandalay,Member,Male,Fashion accessories,310.044
+958512183,A,Yangon,Member,Male,Health and beauty,545.37
+831999252,A,Yangon,Normal,Female,Sports and travel,195.594
+285622922,C,Naypyitaw,Normal,Male,Health and beauty,91.4025
+358556737,C,Naypyitaw,Member,Female,Fashion accessories,232.155
+528521395,B,Mandalay,Member,Female,Electronic accessories,69.405
+546893826,A,Yangon,Normal,Male,Fashion accessories,94.1745
+661370802,A,Yangon,Normal,Male,Food and beverages,235.683
+554021413,A,Yangon,Normal,Male,Health and beauty,125.517
+244249775,C,Naypyitaw,Member,Male,Fashion accessories,195.72
+425038459,A,Yangon,Member,Male,Home and lifestyle,263.13
+930286164,B,Mandalay,Normal,Male,Home and lifestyle,788.508
+771766082,A,Yangon,Member,Male,Home and lifestyle,399.756
+784077232,B,Mandalay,Member,Female,Electronic accessories,256.41
+361959703,A,Yangon,Member,Male,Fashion accessories,94.185
+272389570,A,Yangon,Member,Male,Electronic accessories,326.424
+481631123,B,Mandalay,Normal,Male,Food and beverages,536.991
+592839579,B,Mandalay,Member,Male,Food and beverages,439.8975
+225181146,C,Naypyitaw,Member,Male,Fashion accessories,369.495
+810500764,C,Naypyitaw,Normal,Female,Sports and travel,30.219
+717182898,A,Yangon,Normal,Male,Home and lifestyle,99.75
+510002683,A,Yangon,Member,Male,Home and lifestyle,494.76
+595618535,B,Mandalay,Member,Male,Fashion accessories,137.004
+572057872,A,Yangon,Member,Male,Electronic accessories,69.6675
+803920673,A,Yangon,Member,Male,Home and lifestyle,163.233
+493086305,A,Yangon,Member,Male,Electronic accessories,135.45
+366108033,C,Naypyitaw,Member,Male,Electronic accessories,276.948
+982117904,A,Yangon,Normal,Female,Electronic accessories,709.317
+289675349,C,Naypyitaw,Normal,Female,Fashion accessories,69.09
+767309196,B,Mandalay,Member,Female,Fashion accessories,160.86
+562823054,A,Yangon,Member,Female,Sports and travel,233.52
+961623589,B,Mandalay,Normal,Male,Sports and travel,57.1725
+277877529,A,Yangon,Member,Female,Sports and travel,723.24
+778583410,C,Naypyitaw,Normal,Male,Home and lifestyle,148.974
+290337984,B,Mandalay,Member,Female,Food and beverages,783.3
+935947402,A,Yangon,Member,Male,Home and lifestyle,297.108
+295607152,A,Yangon,Member,Female,Home and lifestyle,373.17
+628552328,B,Mandalay,Normal,Female,Sports and travel,354.0075
+390788478,C,Naypyitaw,Member,Female,Health and beauty,44.352
+994903962,A,Yangon,Member,Female,Home and lifestyle,203.553
+922227301,A,Yangon,Normal,Female,Home and lifestyle,25.263
+402653497,B,Mandalay,Normal,Female,Health and beauty,628.173
+505798818,B,Mandalay,Normal,Male,Fashion accessories,352.5795
+672586949,C,Naypyitaw,Member,Female,Home and lifestyle,229.11
+441071974,C,Naypyitaw,Normal,Female,Fashion accessories,400.764
+685586107,C,Naypyitaw,Member,Male,Fashion accessories,745.395
+572485190,A,Yangon,Member,Male,Sports and travel,462.21
+789772146,A,Yangon,Normal,Female,Home and lifestyle,587.664
+566840818,C,Naypyitaw,Normal,Male,Home and lifestyle,38.85
+372837699,A,Yangon,Normal,Female,Sports and travel,16.107
+991470875,A,Yangon,Member,Male,Health and beauty,628.929
+563844140,A,Yangon,Member,Female,Health and beauty,200.214
+797893717,B,Mandalay,Normal,Male,Health and beauty,350.07
+551917882,C,Naypyitaw,Member,Male,Home and lifestyle,78.603
+287214244,C,Naypyitaw,Normal,Female,Sports and travel,224.4375
+775997824,B,Mandalay,Normal,Female,Food and beverages,356.5485
+521044743,A,Yangon,Member,Female,Home and lifestyle,697.368
+281092647,B,Mandalay,Member,Male,Electronic accessories,423.15
+226239160,C,Naypyitaw,Normal,Male,Electronic accessories,204.6975
+682313215,A,Yangon,Member,Female,Electronic accessories,65.604
+700166278,A,Yangon,Member,Female,Food and beverages,76.356
+607150278,B,Mandalay,Normal,Male,Health and beauty,190.155
+460108551,C,Naypyitaw,Member,Female,Electronic accessories,272.58
+531594253,C,Naypyitaw,Normal,Male,Electronic accessories,121.128
+863388767,A,Yangon,Member,Male,Home and lifestyle,493.794
+966032826,A,Yangon,Member,Male,Home and lifestyle,252.042
+567269520,C,Naypyitaw,Member,Female,Home and lifestyle,93.0405
+595900367,C,Naypyitaw,Normal,Male,Fashion accessories,209.622
+998893520,B,Mandalay,Member,Male,Health and beauty,40.9605
+680700575,C,Naypyitaw,Normal,Male,Food and beverages,51.0405
+616370173,A,Yangon,Normal,Female,Electronic accessories,214.998
+245171695,B,Mandalay,Normal,Female,Electronic accessories,125.664
+904060817,A,Yangon,Member,Male,Electronic accessories,530.67
+489363255,A,Yangon,Normal,Female,Sports and travel,295.6905
+250081317,A,Yangon,Member,Female,Home and lifestyle,745.836
+307046551,A,Yangon,Member,Female,Electronic accessories,83.412
+240822803,A,Yangon,Normal,Female,Fashion accessories,172.011
+874144619,B,Mandalay,Member,Male,Sports and travel,503.559
+708157695,C,Naypyitaw,Member,Male,Fashion accessories,145.593
+248460942,A,Yangon,Member,Female,Food and beverages,74.7075
+334552872,A,Yangon,Member,Female,Health and beauty,146.9475
+987724320,C,Naypyitaw,Member,Female,Electronic accessories,820.365
+206302324,C,Naypyitaw,Member,Male,Food and beverages,208.677
+240470446,C,Naypyitaw,Member,Female,Food and beverages,66.402
+373207583,C,Naypyitaw,Member,Male,Electronic accessories,392.6475
+667605964,C,Naypyitaw,Member,Female,Health and beauty,218.0745
+862822692,C,Naypyitaw,Member,Male,Health and beauty,185.094
+345365705,C,Naypyitaw,Normal,Female,Food and beverages,216.6885
+688252966,C,Naypyitaw,Normal,Female,Health and beauty,41.391
+905883453,A,Yangon,Normal,Male,Health and beauty,96.138
+329079345,A,Yangon,Normal,Female,Fashion accessories,324.2925
+799925239,A,Yangon,Normal,Male,Home and lifestyle,135.576
+344773431,B,Mandalay,Normal,Male,Sports and travel,410.508
+285096361,A,Yangon,Member,Male,Food and beverages,523.845
+626231895,C,Naypyitaw,Member,Male,Food and beverages,395.892
+742813779,B,Mandalay,Member,Male,Health and beauty,214.746
+353176759,A,Yangon,Member,Male,Electronic accessories,152.712
+898777439,B,Mandalay,Normal,Male,Home and lifestyle,208.089
+264403475,A,Yangon,Normal,Male,Food and beverages,103.635
+462775758,A,Yangon,Normal,Male,Fashion accessories,404.355
+436564214,A,Yangon,Member,Male,Food and beverages,49.308
+681300483,C,Naypyitaw,Member,Male,Sports and travel,77.175
+293246100,A,Yangon,Member,Female,Electronic accessories,149.3625
+891613868,A,Yangon,Normal,Male,Fashion accessories,721.98
+477107596,B,Mandalay,Normal,Female,Sports and travel,365.085
+634055368,C,Naypyitaw,Normal,Female,Electronic accessories,150.0975
+762907723,B,Mandalay,Member,Female,Food and beverages,404.649
+615702781,B,Mandalay,Member,Male,Electronic accessories,151.4835
+225218775,B,Mandalay,Member,Female,Health and beauty,411.3795
+997204615,B,Mandalay,Member,Female,Health and beauty,565.215
+459198796,C,Naypyitaw,Normal,Female,Food and beverages,509.4075
+292303814,A,Yangon,Normal,Male,Sports and travel,140.6475
+230072774,A,Yangon,Normal,Female,Fashion accessories,736.4385
+892134014,A,Yangon,Member,Male,Electronic accessories,75.5475
+797540660,C,Naypyitaw,Member,Female,Home and lifestyle,749.7
+505259302,A,Yangon,Normal,Male,Electronic accessories,191.247
+700896258,B,Mandalay,Normal,Female,Health and beauty,141.75
+482779579,C,Naypyitaw,Member,Female,Fashion accessories,1042.65
+966917245,A,Yangon,Normal,Male,Electronic accessories,379.9215
+273827527,B,Mandalay,Member,Female,Fashion accessories,402.2655
+214213263,B,Mandalay,Member,Male,Home and lifestyle,255.15
+751380698,C,Naypyitaw,Normal,Female,Electronic accessories,31.752
+228042121,B,Mandalay,Member,Female,Food and beverages,374.388
+955953832,C,Naypyitaw,Normal,Female,Fashion accessories,394.275
+446938110,C,Naypyitaw,Normal,Female,Sports and travel,1002.12
+975368604,B,Mandalay,Normal,Male,Electronic accessories,86.625
+819259948,B,Mandalay,Normal,Male,Sports and travel,78.7185
+433409249,A,Yangon,Member,Male,Food and beverages,680.064
+347692522,C,Naypyitaw,Normal,Female,Food and beverages,793.548
+325057761,C,Naypyitaw,Normal,Male,Food and beverages,209.559
+796369802,A,Yangon,Normal,Male,Home and lifestyle,461.286
+385959718,C,Naypyitaw,Normal,Female,Food and beverages,173.208
+898563617,C,Naypyitaw,Normal,Female,Fashion accessories,343.056
+513836817,C,Naypyitaw,Normal,Female,Electronic accessories,484.974
+567281879,A,Yangon,Member,Male,Home and lifestyle,276.948
+630847952,C,Naypyitaw,Normal,Female,Sports and travel,150.78
+274628904,A,Yangon,Member,Male,Electronic accessories,203.175
+519649913,B,Mandalay,Member,Female,Electronic accessories,193.011
+951300164,B,Mandalay,Normal,Female,Fashion accessories,128.016
+240709707,C,Naypyitaw,Normal,Female,Home and lifestyle,441.693
+949291211,C,Naypyitaw,Normal,Male,Fashion accessories,265.104
+781580062,A,Yangon,Normal,Female,Home and lifestyle,352.2225
+659714777,A,Yangon,Member,Female,Fashion accessories,507.675
+347843938,B,Mandalay,Member,Female,Home and lifestyle,334.341
+719484073,C,Naypyitaw,Normal,Male,Sports and travel,701.8515
+885236170,C,Naypyitaw,Member,Male,Fashion accessories,407.316
+848234559,B,Mandalay,Normal,Female,Electronic accessories,99.33
+296908614,A,Yangon,Member,Male,Sports and travel,345.786
+609730149,C,Naypyitaw,Normal,Female,Electronic accessories,55.881
+409285624,B,Mandalay,Normal,Female,Food and beverages,523.3725
+270599235,C,Naypyitaw,Member,Female,Food and beverages,314.538
+862126202,A,Yangon,Normal,Female,Food and beverages,214.935
+519455030,B,Mandalay,Member,Male,Sports and travel,79.611
+702974795,C,Naypyitaw,Normal,Male,Food and beverages,294.651
+950800287,A,Yangon,Normal,Female,Health and beauty,339.36
+540611045,C,Naypyitaw,Member,Female,Fashion accessories,510.9615
+694772195,B,Mandalay,Normal,Male,Food and beverages,133.917
+910211938,C,Naypyitaw,Member,Female,Fashion accessories,253.512
+889595918,B,Mandalay,Normal,Female,Fashion accessories,398.475
+276852458,A,Yangon,Member,Male,Electronic accessories,80.661
+223507045,A,Yangon,Member,Female,Sports and travel,548.73
+831051846,A,Yangon,Normal,Female,Health and beauty,83.727
+743148365,A,Yangon,Normal,Female,Health and beauty,406.875
+497702818,A,Yangon,Normal,Female,Food and beverages,284.9175
+875928272,B,Mandalay,Normal,Male,Home and lifestyle,128.4255
+673403876,B,Mandalay,Member,Female,Health and beauty,258.678
+734582625,B,Mandalay,Member,Male,Electronic accessories,181.818
+224486028,C,Naypyitaw,Normal,Female,Food and beverages,248.409
+604954368,C,Naypyitaw,Normal,Male,Home and lifestyle,194.124
+422282013,C,Naypyitaw,Member,Male,Home and lifestyle,14.679
+546833122,B,Mandalay,Normal,Female,Fashion accessories,208.6875
+929423898,C,Naypyitaw,Member,Female,Fashion accessories,718.7565
+638789297,A,Yangon,Member,Male,Sports and travel,282.492
+611259518,A,Yangon,Normal,Male,Food and beverages,72.3975
+256195071,B,Mandalay,Member,Female,Fashion accessories,288.582
+756274833,A,Yangon,Normal,Female,Home and lifestyle,237.426
+418064844,C,Naypyitaw,Normal,Female,Fashion accessories,125.055
+800170399,B,Mandalay,Normal,Female,Health and beauty,359.205
+610124213,B,Mandalay,Normal,Male,Sports and travel,45.927
+655683128,A,Yangon,Member,Male,Health and beauty,110.0925
+806035901,A,Yangon,Normal,Male,Sports and travel,81.396
+473538013,A,Yangon,Normal,Male,Home and lifestyle,427.812
+520036076,B,Mandalay,Normal,Male,Health and beauty,100.9155
+728431824,C,Naypyitaw,Normal,Female,Home and lifestyle,190.596
+598755997,C,Naypyitaw,Member,Female,Health and beauty,85.5855
+995717681,B,Mandalay,Normal,Female,Health and beauty,120.162
+724421182,A,Yangon,Member,Female,Electronic accessories,185.367
+954273881,C,Naypyitaw,Member,Female,Food and beverages,121.59
+918997539,C,Naypyitaw,Normal,Female,Electronic accessories,264.7575
+297026919,C,Naypyitaw,Member,Female,Fashion accessories,1020.705
+791773032,B,Mandalay,Member,Male,Fashion accessories,213.528
+652064153,C,Naypyitaw,Normal,Male,Fashion accessories,17.094
+795354631,B,Mandalay,Member,Male,Fashion accessories,383.7645
+279639177,A,Yangon,Member,Male,Health and beauty,390.7995
+598334809,B,Mandalay,Member,Female,Food and beverages,65.7405
+874458143,B,Mandalay,Normal,Male,Sports and travel,353.1675
+576514234,A,Yangon,Member,Female,Home and lifestyle,951.825
+667929706,B,Mandalay,Normal,Male,Fashion accessories,145.068
+783833721,C,Naypyitaw,Normal,Male,Food and beverages,90.867
+830295894,A,Yangon,Normal,Female,Electronic accessories,147.798
+523995033,B,Mandalay,Normal,Male,Fashion accessories,702.219
+263669110,B,Mandalay,Normal,Female,Fashion accessories,49.812
+960993227,C,Naypyitaw,Normal,Male,Sports and travel,937.818
+363050387,C,Naypyitaw,Member,Male,Sports and travel,348.306
+534989934,A,Yangon,Normal,Male,Home and lifestyle,214.137
+842729171,C,Naypyitaw,Member,Male,Food and beverages,71.568
+845134416,C,Naypyitaw,Normal,Female,Electronic accessories,343.224
+771641048,C,Naypyitaw,Member,Male,Food and beverages,91.56
+743105620,B,Mandalay,Member,Female,Sports and travel,742.812
+342380380,A,Yangon,Member,Female,Home and lifestyle,843.0345
+844696537,C,Naypyitaw,Normal,Male,Fashion accessories,13.419
+364741353,A,Yangon,Normal,Female,Sports and travel,140.385
+847478147,B,Mandalay,Member,Female,Health and beauty,20.1075
+781739070,C,Naypyitaw,Member,Male,Food and beverages,290.43
+262349170,C,Naypyitaw,Normal,Male,Fashion accessories,144.081
+489499755,B,Mandalay,Member,Female,Health and beauty,28.4235
+442797268,B,Mandalay,Member,Female,Sports and travel,41.076
+886514108,B,Mandalay,Normal,Female,Electronic accessories,470.673
+725233654,B,Mandalay,Normal,Male,Electronic accessories,138.663
+524526411,A,Yangon,Normal,Female,Food and beverages,333.9525
+319116660,A,Yangon,Normal,Male,Health and beauty,26.25
+598134999,A,Yangon,Member,Male,Electronic accessories,87.234
+989234235,B,Mandalay,Member,Female,Fashion accessories,155.19
+344778219,B,Mandalay,Member,Female,Food and beverages,731.43
+203474073,B,Mandalay,Normal,Male,Electronic accessories,833.595
+378194400,C,Naypyitaw,Member,Female,Electronic accessories,488.985
+238078314,C,Naypyitaw,Normal,Male,Food and beverages,37.6845
+330423069,C,Naypyitaw,Normal,Male,Food and beverages,212.73
+687514432,B,Mandalay,Member,Female,Food and beverages,767.025
+981040233,C,Naypyitaw,Normal,Female,Sports and travel,310.59
+307705989,C,Naypyitaw,Member,Female,Food and beverages,23.751
+389965600,A,Yangon,Member,Male,Food and beverages,269.535
+391551887,C,Naypyitaw,Member,Female,Sports and travel,572.775
+218954151,C,Naypyitaw,Member,Female,Health and beauty,273.0525
+838214257,B,Mandalay,Normal,Male,Sports and travel,233.226
+358397184,C,Naypyitaw,Normal,Male,Food and beverages,22.659
+990315170,C,Naypyitaw,Member,Female,Electronic accessories,103.782
+507249376,C,Naypyitaw,Member,Female,Home and lifestyle,527.751
+933336060,A,Yangon,Member,Female,Sports and travel,168.21
+951701755,A,Yangon,Member,Male,Fashion accessories,452.865
+960617752,B,Mandalay,Member,Male,Health and beauty,609.588
+442535220,A,Yangon,Member,Female,Electronic accessories,338.31
+234803925,A,Yangon,Normal,Male,Health and beauty,205.317
+285025241,A,Yangon,Normal,Female,Sports and travel,174.615
+461903361,C,Naypyitaw,Normal,Male,Electronic accessories,353.094
+701793327,B,Mandalay,Normal,Male,Sports and travel,360.885
+838182400,A,Yangon,Normal,Male,Electronic accessories,40.53
+422056707,C,Naypyitaw,Normal,Male,Food and beverages,554.148
+607842814,C,Naypyitaw,Normal,Female,Electronic accessories,344.4
+648806552,A,Yangon,Normal,Male,Sports and travel,194.985
+722051494,B,Mandalay,Member,Male,Home and lifestyle,633.99
+288259003,C,Naypyitaw,Member,Female,Sports and travel,388.29
+311762853,B,Mandalay,Member,Female,Sports and travel,207.858
+498533141,B,Mandalay,Normal,Female,Fashion accessories,431.445
+920862086,A,Yangon,Normal,Male,Fashion accessories,156.03
+919647289,C,Naypyitaw,Normal,Male,Home and lifestyle,24.108
+348271050,B,Mandalay,Member,Female,Home and lifestyle,734.076
+431508552,B,Mandalay,Normal,Female,Fashion accessories,72.87
+768380130,A,Yangon,Member,Female,Fashion accessories,206.43
+370504143,B,Mandalay,Member,Female,Health and beauty,212.688
+385706209,C,Naypyitaw,Member,Female,Home and lifestyle,127.26
+581792212,B,Mandalay,Normal,Male,Fashion accessories,209.769
+701621276,B,Mandalay,Normal,Male,Sports and travel,637.728
+216124412,C,Naypyitaw,Normal,Female,Electronic accessories,132.762
+706929383,C,Naypyitaw,Normal,Female,Food and beverages,568.512
+684046631,B,Mandalay,Member,Female,Sports and travel,103.0365
+522053733,A,Yangon,Member,Female,Sports and travel,432.768
+584800794,B,Mandalay,Member,Male,Sports and travel,77.6685
+378696047,C,Naypyitaw,Member,Female,Fashion accessories,33.495
+436894372,C,Naypyitaw,Normal,Male,Home and lifestyle,145.74
+512483204,B,Mandalay,Normal,Female,Sports and travel,195.951
+517374786,B,Mandalay,Normal,Male,Sports and travel,92.8725
+994119785,A,Yangon,Member,Male,Electronic accessories,203.112
+740458030,B,Mandalay,Member,Female,Sports and travel,152.775
+512365962,B,Mandalay,Normal,Female,Food and beverages,529.515
+607688848,B,Mandalay,Member,Male,Health and beauty,321.7725
+967956254,C,Naypyitaw,Member,Female,Home and lifestyle,100.485
+751260351,B,Mandalay,Member,Female,Sports and travel,666.939
+910395013,A,Yangon,Normal,Female,Home and lifestyle,225.2775
+660799869,A,Yangon,Normal,Female,Fashion accessories,398.958
+249693470,A,Yangon,Normal,Male,Electronic accessories,731.6925
+424811496,C,Naypyitaw,Member,Male,Sports and travel,429.1665
+641411396,C,Naypyitaw,Member,Female,Fashion accessories,54.0435
+815246808,B,Mandalay,Member,Male,Health and beauty,288.015
+902051407,C,Naypyitaw,Member,Male,Home and lifestyle,206.7975
+523916555,A,Yangon,Normal,Male,Home and lifestyle,72.933
+869044103,C,Naypyitaw,Member,Male,Sports and travel,377.58
+954545288,B,Mandalay,Normal,Female,Electronic accessories,143.9865
+399672056,C,Naypyitaw,Member,Female,Home and lifestyle,523.971
+963489716,A,Yangon,Member,Female,Home and lifestyle,235.872
+302290596,C,Naypyitaw,Normal,Male,Health and beauty,132.027
+338081469,A,Yangon,Normal,Male,Food and beverages,514.773
+556094207,A,Yangon,Member,Female,Sports and travel,479.9025
+385713690,B,Mandalay,Normal,Male,Fashion accessories,164.682
+797369030,B,Mandalay,Member,Male,Fashion accessories,125.706
+818683529,B,Mandalay,Member,Female,Food and beverages,570.78
+830301691,A,Yangon,Normal,Male,Sports and travel,926.9505
+886298863,A,Yangon,Normal,Male,Health and beauty,160.209
+611260337,A,Yangon,Member,Male,Fashion accessories,728.112
+896705205,B,Mandalay,Normal,Male,Electronic accessories,240.975
+955848343,C,Naypyitaw,Normal,Female,Food and beverages,154.1295
+311736677,A,Yangon,Normal,Female,Home and lifestyle,148.68
+539449118,C,Naypyitaw,Normal,Male,Home and lifestyle,122.5245
+362245851,B,Mandalay,Member,Female,Fashion accessories,77.658
+285174862,A,Yangon,Normal,Male,Home and lifestyle,102.837
+549269426,A,Yangon,Normal,Female,Fashion accessories,306.81
+708268186,C,Naypyitaw,Member,Female,Food and beverages,551.124
+493433245,A,Yangon,Normal,Male,Home and lifestyle,96.642
+329102236,C,Naypyitaw,Member,Male,Health and beauty,79.674
+458097937,B,Mandalay,Member,Female,Sports and travel,84.756
+465188731,C,Naypyitaw,Member,Male,Electronic accessories,118.251
+240240630,B,Mandalay,Normal,Female,Food and beverages,74.76
+784128071,B,Mandalay,Member,Male,Home and lifestyle,163.002
+737311485,A,Yangon,Normal,Female,Fashion accessories,308.91
+544523445,A,Yangon,Normal,Male,Sports and travel,575.9775
+878423176,B,Mandalay,Normal,Female,Sports and travel,270.585
+604156722,A,Yangon,Normal,Female,Electronic accessories,416.178
+219159928,B,Mandalay,Normal,Male,Fashion accessories,180.4005
+969599266,B,Mandalay,Normal,Female,Fashion accessories,513.2295
+254512963,B,Mandalay,Normal,Female,Health and beauty,550.368
+349208943,C,Naypyitaw,Normal,Male,Electronic accessories,139.923
+612636961,A,Yangon,Member,Male,Electronic accessories,142.002
+832810008,B,Mandalay,Normal,Male,Home and lifestyle,118.062
+483956899,B,Mandalay,Member,Female,Fashion accessories,151.284
+297059243,C,Naypyitaw,Member,Female,Food and beverages,1034.46
+779160388,A,Yangon,Member,Male,Food and beverages,262.458
+824427397,A,Yangon,Member,Female,Home and lifestyle,228.123
+235002396,B,Mandalay,Normal,Male,Electronic accessories,203.931
+955494133,C,Naypyitaw,Normal,Male,Food and beverages,936.6
+968138173,B,Mandalay,Normal,Female,Electronic accessories,356.328
+240593225,A,Yangon,Member,Male,Electronic accessories,469.413
+636078783,B,Mandalay,Normal,Male,Fashion accessories,208.425
+782186856,A,Yangon,Normal,Female,Food and beverages,852.705
+226814165,C,Naypyitaw,Normal,Female,Sports and travel,517.965
+794736715,A,Yangon,Normal,Female,Fashion accessories,621.243
+749340297,B,Mandalay,Normal,Female,Fashion accessories,586.971
+353197462,C,Naypyitaw,Normal,Female,Sports and travel,543.753
+821068127,B,Mandalay,Member,Female,Home and lifestyle,430.71
+762341374,B,Mandalay,Member,Male,Sports and travel,280.035
+933822865,A,Yangon,Member,Male,Food and beverages,74.4555
+243657607,B,Mandalay,Normal,Male,Food and beverages,152.019
+229906298,A,Yangon,Normal,Male,Sports and travel,451.0275
+566601742,B,Mandalay,Member,Male,Fashion accessories,597.6285
+314466838,B,Mandalay,Normal,Male,Food and beverages,253.26
+440512137,C,Naypyitaw,Normal,Male,Food and beverages,133.434
+519713982,A,Yangon,Normal,Female,Health and beauty,269.934
+391366932,B,Mandalay,Normal,Male,Health and beauty,145.971
+716850573,C,Naypyitaw,Normal,Male,Food and beverages,85.743
+656220461,A,Yangon,Member,Female,Health and beauty,326.256
+233877363,C,Naypyitaw,Member,Female,Fashion accessories,195.258
+807300466,B,Mandalay,Member,Female,Fashion accessories,75.936
+454910920,B,Mandalay,Normal,Male,Sports and travel,198.639
+597212725,A,Yangon,Normal,Male,Health and beauty,217.182
+948783855,A,Yangon,Normal,Female,Food and beverages,164.871
+979046599,A,Yangon,Normal,Female,Sports and travel,226.065
+307776035,C,Naypyitaw,Normal,Male,Fashion accessories,625.905
+416706432,A,Yangon,Normal,Male,Health and beauty,76.755
+632232548,C,Naypyitaw,Member,Male,Health and beauty,293.139
+918175197,C,Naypyitaw,Member,Female,Home and lifestyle,178.164
+238938722,A,Yangon,Member,Female,Sports and travel,47.859
+753893828,A,Yangon,Member,Female,Sports and travel,236.88
+633987566,B,Mandalay,Member,Male,Sports and travel,304.92
+471304975,B,Mandalay,Normal,Male,Health and beauty,46.683
+997076096,A,Yangon,Normal,Male,Food and beverages,164.43
+973028970,C,Naypyitaw,Normal,Female,Sports and travel,440.937
+520768599,C,Naypyitaw,Normal,Female,Fashion accessories,193.4625
+279974296,A,Yangon,Member,Female,Home and lifestyle,147.672
+700900223,C,Naypyitaw,Normal,Male,Electronic accessories,87.234
+562441128,C,Naypyitaw,Normal,Female,Fashion accessories,68.2395
+871839313,C,Naypyitaw,Normal,Male,Food and beverages,814.38
+398268935,B,Mandalay,Normal,Female,Sports and travel,343.413
+493597993,C,Naypyitaw,Member,Female,Fashion accessories,381.3915
+568756496,B,Mandalay,Normal,Male,Home and lifestyle,133.35
+989769188,A,Yangon,Member,Female,Fashion accessories,394.3275
+301647268,C,Naypyitaw,Member,Female,Food and beverages,209.118
+442423502,A,Yangon,Normal,Male,Fashion accessories,32.1405
+896877847,B,Mandalay,Member,Male,Food and beverages,121.569
+330163652,A,Yangon,Normal,Female,Electronic accessories,30.408
+569826965,C,Naypyitaw,Member,Female,Food and beverages,935.2665
+926676499,B,Mandalay,Member,Male,Fashion accessories,293.643
+705422747,C,Naypyitaw,Member,Male,Sports and travel,84.9765
+790533920,A,Yangon,Member,Male,Food and beverages,708.225
+262341382,A,Yangon,Member,Female,Sports and travel,365.904
+736222842,B,Mandalay,Member,Male,Sports and travel,457.38
+404591545,C,Naypyitaw,Member,Male,Electronic accessories,461.5275
+224163790,A,Yangon,Member,Male,Food and beverages,620.739
+799117880,C,Naypyitaw,Member,Female,Fashion accessories,273.798
+220057356,A,Yangon,Normal,Female,Food and beverages,225.792
+599094940,A,Yangon,Member,Female,Food and beverages,96.1905
+260600302,B,Mandalay,Member,Female,Home and lifestyle,695.2365
+703421017,B,Mandalay,Normal,Female,Fashion accessories,874.125
+541270192,B,Mandalay,Member,Male,Fashion accessories,95.9175
+888016762,B,Mandalay,Member,Female,Food and beverages,165.648
+812896497,A,Yangon,Normal,Male,Sports and travel,127.827
+752840515,B,Mandalay,Member,Male,Health and beauty,867.09
+795738675,A,Yangon,Member,Male,Home and lifestyle,167.895
+500328907,A,Yangon,Normal,Female,Fashion accessories,12.6945
+609161270,A,Yangon,Normal,Male,Sports and travel,673.995
+906587057,A,Yangon,Normal,Male,Electronic accessories,246.6765
+992686737,A,Yangon,Member,Male,Food and beverages,175.917
+957376839,B,Mandalay,Normal,Male,Home and lifestyle,314.055
+473094475,B,Mandalay,Member,Male,Food and beverages,251.7165
+975086791,B,Mandalay,Member,Male,Health and beauty,697.935
+606891018,A,Yangon,Normal,Male,Health and beauty,212.7825
+743595247,C,Naypyitaw,Normal,Female,Electronic accessories,48.51
+742273051,B,Mandalay,Member,Female,Food and beverages,92.5575
+531481393,B,Mandalay,Normal,Male,Fashion accessories,165.123
+520515401,B,Mandalay,Member,Female,Food and beverages,311.1885
+412903260,C,Naypyitaw,Member,Female,Electronic accessories,743.82
+854365427,B,Mandalay,Member,Male,Electronic accessories,116.907
+409408939,C,Naypyitaw,Member,Female,Food and beverages,609.168
+429201253,C,Naypyitaw,Member,Male,Electronic accessories,63.2625
+313202453,A,Yangon,Member,Male,Home and lifestyle,182.952
+200703988,C,Naypyitaw,Normal,Male,Health and beauty,442.323
+831767409,B,Mandalay,Member,Male,Fashion accessories,35.3115
+904034988,C,Naypyitaw,Member,Female,Sports and travel,32.529
+629934442,C,Naypyitaw,Normal,Male,Electronic accessories,259.77
+769726567,B,Mandalay,Normal,Male,Electronic accessories,397.215
+893651434,B,Mandalay,Normal,Female,Health and beauty,351.603
+704161227,A,Yangon,Member,Male,Home and lifestyle,764.19
+497338392,B,Mandalay,Member,Male,Sports and travel,352.674
+764539677,B,Mandalay,Member,Male,Fashion accessories,252.756
+248736875,A,Yangon,Normal,Female,Electronic accessories,49.4235
+496203163,C,Naypyitaw,Normal,Female,Electronic accessories,104.6745
+457154332,A,Yangon,Member,Female,Fashion accessories,277.6725
+477596170,A,Yangon,Member,Female,Sports and travel,146.6325
+219803733,A,Yangon,Member,Male,Fashion accessories,58.2225
+700403537,B,Mandalay,Normal,Female,Sports and travel,135.3555
+203308167,C,Naypyitaw,Member,Male,Sports and travel,125.979
+204916596,B,Mandalay,Member,Female,Fashion accessories,370.125
+319784589,C,Naypyitaw,Member,Female,Food and beverages,914.55
+252110081,C,Naypyitaw,Normal,Female,Sports and travel,207.48
+319421617,A,Yangon,Normal,Female,Fashion accessories,204.246
+720333970,B,Mandalay,Member,Male,Food and beverages,181.881
+811897127,B,Mandalay,Normal,Female,Health and beauty,75.474
+291828619,C,Naypyitaw,Member,Female,Health and beauty,300.573
+669104125,B,Mandalay,Normal,Female,Sports and travel,85.302
+200657859,A,Yangon,Member,Male,Fashion accessories,588.42
+705954691,B,Mandalay,Member,Male,Food and beverages,196.14
+289765826,B,Mandalay,Normal,Female,Health and beauty,231.2415
+687148808,C,Naypyitaw,Normal,Male,Health and beauty,282.576
+568969591,A,Yangon,Normal,Female,Electronic accessories,477.54
+221969939,B,Mandalay,Member,Male,Fashion accessories,175.917
+909047924,B,Mandalay,Member,Female,Sports and travel,470.988
+596094932,A,Yangon,Member,Female,Food and beverages,308.574
+411034688,C,Naypyitaw,Normal,Male,Health and beauty,618.975
+576577057,A,Yangon,Member,Male,Food and beverages,305.55
+357571205,B,Mandalay,Member,Female,Electronic accessories,41.454
+751561925,B,Mandalay,Normal,Female,Sports and travel,36.5505
+950898392,C,Naypyitaw,Normal,Female,Fashion accessories,310.716
+826246967,A,Yangon,Member,Male,Fashion accessories,45.108
+966119334,B,Mandalay,Member,Female,Sports and travel,145.404
+779926516,B,Mandalay,Member,Female,Home and lifestyle,103.11
+269456298,B,Mandalay,Member,Female,Sports and travel,136.143
+603507397,A,Yangon,Member,Male,Home and lifestyle,667.38
+240236060,C,Naypyitaw,Member,Male,Sports and travel,153.048
+942664182,A,Yangon,Normal,Female,Food and beverages,211.365
+854792201,C,Naypyitaw,Member,Female,Sports and travel,663.2955
+573577704,C,Naypyitaw,Member,Male,Food and beverages,404.544
+769474854,A,Yangon,Member,Male,Health and beauty,510.615
+501356175,C,Naypyitaw,Member,Female,Fashion accessories,539.343
+671980926,C,Naypyitaw,Normal,Female,Food and beverages,497.07
+220334462,A,Yangon,Member,Female,Home and lifestyle,458.6925
+506793909,A,Yangon,Member,Female,Sports and travel,113.568
+759107775,B,Mandalay,Normal,Male,Home and lifestyle,261.198
+463692146,A,Yangon,Member,Male,Electronic accessories,657.531
+518222711,C,Naypyitaw,Normal,Male,Home and lifestyle,1023.75
+530115503,C,Naypyitaw,Normal,Female,Fashion accessories,507.444
+226572645,B,Mandalay,Normal,Male,Food and beverages,101.808
+573640914,B,Mandalay,Member,Female,Fashion accessories,207.585
+291716860,B,Mandalay,Member,Male,Health and beauty,760.4415
+696949921,B,Mandalay,Member,Female,Home and lifestyle,835.2855
+447492981,B,Mandalay,Normal,Male,Health and beauty,527.5095
+454027703,B,Mandalay,Normal,Female,Electronic accessories,180.6
+891040856,C,Naypyitaw,Member,Male,Food and beverages,72.429
+895221149,C,Naypyitaw,Normal,Male,Fashion accessories,131.208
+376180630,A,Yangon,Normal,Male,Sports and travel,80.955
+748600795,A,Yangon,Member,Male,Food and beverages,507.906
+323228582,C,Naypyitaw,Member,Female,Home and lifestyle,317.226
+948813640,C,Naypyitaw,Normal,Female,Electronic accessories,733.6035
+997963016,C,Naypyitaw,Normal,Female,Health and beauty,130.8825
+227566258,C,Naypyitaw,Member,Male,Fashion accessories,829.08
+551648488,A,Yangon,Normal,Female,Health and beauty,187.32
+760295985,A,Yangon,Member,Female,Fashion accessories,525.231
+863504426,A,Yangon,Member,Male,Electronic accessories,37.611
+618181241,A,Yangon,Normal,Male,Fashion accessories,142.947
+282746592,B,Mandalay,Member,Female,Fashion accessories,110.124
+765124579,B,Mandalay,Normal,Female,Fashion accessories,187.866
+717699771,C,Naypyitaw,Member,Female,Sports and travel,856.4535
+796386108,B,Mandalay,Normal,Male,Home and lifestyle,138.978
+669510922,C,Naypyitaw,Member,Female,Food and beverages,270.2595
+339882206,B,Mandalay,Member,Male,Food and beverages,98.028
+933878087,C,Naypyitaw,Member,Female,Health and beauty,239.4
+778495746,C,Naypyitaw,Member,Male,Home and lifestyle,175.0455
+277818812,B,Mandalay,Normal,Male,Sports and travel,732.27
+811457766,C,Naypyitaw,Normal,Male,Fashion accessories,408.492
+344511427,B,Mandalay,Member,Female,Home and lifestyle,383.523
+500719212,A,Yangon,Member,Female,Fashion accessories,93.744
+522127066,A,Yangon,Normal,Male,Health and beauty,176.4
+449126069,A,Yangon,Member,Male,Fashion accessories,20.685
+726473060,B,Mandalay,Normal,Male,Electronic accessories,557.718
+211481594,B,Mandalay,Member,Male,Food and beverages,56.406
+475450538,C,Naypyitaw,Member,Male,Health and beauty,860.475
+444281197,C,Naypyitaw,Member,Female,Home and lifestyle,596.82
+298219526,C,Naypyitaw,Normal,Male,Electronic accessories,616.98
+706649602,B,Mandalay,Member,Male,Electronic accessories,769.104
+897323923,A,Yangon,Normal,Male,Home and lifestyle,887.922
+450161113,C,Naypyitaw,Normal,Male,Home and lifestyle,408.7335
+345177578,C,Naypyitaw,Normal,Male,Food and beverages,89.0715
+986058011,A,Yangon,Member,Female,Sports and travel,150.423
+779467077,A,Yangon,Member,Male,Home and lifestyle,79.149
+855323091,C,Naypyitaw,Member,Female,Sports and travel,266.028
+297286976,C,Naypyitaw,Member,Female,Food and beverages,40.341
+456721779,B,Mandalay,Member,Male,Fashion accessories,684.915
+281674623,C,Naypyitaw,Member,Female,Home and lifestyle,55.2825
+864030165,B,Mandalay,Member,Female,Home and lifestyle,116.1405
+538065916,C,Naypyitaw,Member,Male,Health and beauty,597.0405
+635114700,B,Mandalay,Member,Female,Fashion accessories,93.744
+748984476,A,Yangon,Normal,Female,Food and beverages,143.22
+214993399,A,Yangon,Member,Female,Electronic accessories,182.91
+284471207,B,Mandalay,Normal,Male,Home and lifestyle,384.72
+450243632,C,Naypyitaw,Member,Female,Fashion accessories,267.3405
+723713008,A,Yangon,Normal,Female,Fashion accessories,817.236
+823962060,B,Mandalay,Member,Female,Electronic accessories,300.216
+864334213,A,Yangon,Normal,Female,Home and lifestyle,608.076
+875394760,A,Yangon,Member,Male,Food and beverages,197.925
+211070797,A,Yangon,Normal,Female,Food and beverages,232.638
+652758450,B,Mandalay,Member,Female,Food and beverages,810.6
+740254315,B,Mandalay,Normal,Male,Electronic accessories,757.365
+867046302,A,Yangon,Member,Female,Fashion accessories,536.592
+681636973,A,Yangon,Member,Female,Health and beauty,56.1225
+671528424,A,Yangon,Member,Male,Health and beauty,233.1
+466192494,B,Mandalay,Normal,Female,Home and lifestyle,801.864
+201715975,C,Naypyitaw,Normal,Female,Fashion accessories,239.589
+508934218,B,Mandalay,Normal,Male,Sports and travel,86.247
+899400524,B,Mandalay,Normal,Female,Electronic accessories,401.688
+648005872,A,Yangon,Normal,Female,Home and lifestyle,72.009
+480970187,B,Mandalay,Member,Female,Sports and travel,401.268
+959026117,C,Naypyitaw,Member,Female,Health and beauty,631.1445
+432547693,C,Naypyitaw,Member,Female,Sports and travel,499.7265
+651449061,C,Naypyitaw,Normal,Female,Food and beverages,55.041
+427400815,C,Naypyitaw,Member,Male,Food and beverages,137.865
+924178997,B,Mandalay,Normal,Female,Food and beverages,151.515
+951802451,C,Naypyitaw,Member,Male,Health and beauty,480.0285
+654614351,B,Mandalay,Normal,Male,Sports and travel,98.049
+781573399,C,Naypyitaw,Member,Male,Sports and travel,132.5625
+391254608,B,Mandalay,Member,Male,Electronic accessories,830.3715
+426899671,C,Naypyitaw,Normal,Male,Health and beauty,183.12
+655592345,A,Yangon,Normal,Female,Sports and travel,397.992
+804745668,A,Yangon,Member,Female,Fashion accessories,32.151
+585690753,C,Naypyitaw,Normal,Female,Home and lifestyle,369.684
+399109050,C,Naypyitaw,Member,Female,Health and beauty,53.34
+346679641,A,Yangon,Normal,Male,Electronic accessories,548.163
+645930825,C,Naypyitaw,Normal,Male,Electronic accessories,603.876
+841120948,C,Naypyitaw,Normal,Female,Health and beauty,57.6975
+818335574,C,Naypyitaw,Member,Male,Health and beauty,190.4805
+850817160,A,Yangon,Normal,Male,Sports and travel,432.9885
+232286874,A,Yangon,Normal,Male,Fashion accessories,48.7305
+487281643,C,Naypyitaw,Member,Male,Health and beauty,287.91
+405420742,B,Mandalay,Normal,Female,Home and lifestyle,1022.385
+307288081,A,Yangon,Member,Male,Electronic accessories,680.61
+349712684,A,Yangon,Normal,Female,Electronic accessories,97.881
+324556261,B,Mandalay,Normal,Male,Fashion accessories,57.078
+387545992,C,Naypyitaw,Member,Female,Home and lifestyle,63.9135
+739146083,A,Yangon,Member,Female,Sports and travel,257.145
+281813955,B,Mandalay,Normal,Male,Health and beauty,97.419
+513589941,C,Naypyitaw,Member,Male,Home and lifestyle,455.1225
+740161558,B,Mandalay,Normal,Male,Sports and travel,144.963
+922274459,C,Naypyitaw,Member,Female,Electronic accessories,253.68
+327247384,C,Naypyitaw,Member,Male,Fashion accessories,495.3165
+359142303,A,Yangon,Member,Female,Fashion accessories,462.672
+528651892,B,Mandalay,Member,Female,Electronic accessories,714.3255
+613431897,A,Yangon,Normal,Female,Home and lifestyle,325.374
+422911857,A,Yangon,Normal,Female,Sports and travel,195.678
+925051359,A,Yangon,Normal,Female,Electronic accessories,210.966
+520203649,B,Mandalay,Normal,Female,Health and beauty,18.6375
+712510359,C,Naypyitaw,Normal,Female,Fashion accessories,652.89
+811414039,B,Mandalay,Normal,Male,Health and beauty,90.3
+643076356,A,Yangon,Normal,Female,Electronic accessories,422.73
+715455731,C,Naypyitaw,Member,Female,Sports and travel,341.0925
+796678678,A,Yangon,Normal,Male,Electronic accessories,99.9075
+848841783,A,Yangon,Member,Female,Electronic accessories,408.408
+374202087,B,Mandalay,Normal,Female,Food and beverages,446.964
+429824118,C,Naypyitaw,Normal,Female,Fashion accessories,333.984
+353782543,A,Yangon,Normal,Male,Food and beverages,284.592
+368119970,B,Mandalay,Member,Male,Health and beauty,403.872
+438212074,B,Mandalay,Member,Male,Food and beverages,247.59
+462981501,B,Mandalay,Normal,Male,Electronic accessories,222.138
+648764425,A,Yangon,Member,Female,Home and lifestyle,100.128
+763879939,C,Naypyitaw,Member,Male,Sports and travel,10.6785
+954531935,A,Yangon,Normal,Female,Health and beauty,216.4365
+739113560,B,Mandalay,Member,Female,Sports and travel,441.588
+929519228,A,Yangon,Member,Female,Sports and travel,92.442
+388577497,B,Mandalay,Member,Female,Health and beauty,681.4395
+730616835,A,Yangon,Member,Male,Fashion accessories,130.032
+467775767,C,Naypyitaw,Normal,Male,Electronic accessories,681.975
+584796880,A,Yangon,Member,Female,Electronic accessories,779.31
+568689633,A,Yangon,Normal,Male,Electronic accessories,88.704
+946086391,B,Mandalay,Normal,Male,Health and beauty,262.794
+467026191,B,Mandalay,Member,Female,Sports and travel,99.54
+944334173,A,Yangon,Member,Male,Health and beauty,95.865
+971909869,B,Mandalay,Member,Female,Home and lifestyle,299.3655
+800606907,A,Yangon,Normal,Male,Fashion accessories,54.999
+261867733,A,Yangon,Member,Male,Fashion accessories,202.335
+673152080,B,Mandalay,Normal,Male,Sports and travel,281.169
+785486316,C,Naypyitaw,Normal,Male,Electronic accessories,586.635
+402343216,C,Naypyitaw,Member,Female,Sports and travel,184.086
+477933157,A,Yangon,Normal,Male,Fashion accessories,163.611
+752735040,B,Mandalay,Normal,Male,Electronic accessories,63.315
+569408699,A,Yangon,Member,Female,Sports and travel,82.887
+515395550,C,Naypyitaw,Member,Female,Food and beverages,31.227
+979374616,A,Yangon,Normal,Male,Fashion accessories,22.386
+585746806,A,Yangon,Member,Male,Electronic accessories,295.407
+726459896,A,Yangon,Member,Male,Electronic accessories,76.923
+620226119,C,Naypyitaw,Normal,Female,Sports and travel,23.499
+637017568,C,Naypyitaw,Member,Female,Food and beverages,688.716
+725210403,A,Yangon,Normal,Female,Fashion accessories,624.33
+735981171,A,Yangon,Normal,Male,Fashion accessories,77.805
+899692308,A,Yangon,Normal,Female,Fashion accessories,206.808
+881118362,C,Naypyitaw,Normal,Male,Health and beauty,390.9465
+283052168,B,Mandalay,Normal,Female,Electronic accessories,554.295
+770891373,A,Yangon,Member,Female,Health and beauty,503.7375
+312527091,B,Mandalay,Normal,Female,Fashion accessories,345.0195
+309920459,B,Mandalay,Normal,Male,Food and beverages,177.408
+972087269,A,Yangon,Member,Female,Home and lifestyle,118.902
+475846085,B,Mandalay,Normal,Male,Health and beauty,362.817
+866252300,A,Yangon,Member,Female,Food and beverages,450.1035
+477804171,C,Naypyitaw,Member,Female,Home and lifestyle,90.5835
+900151331,A,Yangon,Member,Male,Sports and travel,26.796
+956469573,B,Mandalay,Normal,Female,Home and lifestyle,106.596
+352615756,B,Mandalay,Normal,Female,Home and lifestyle,375.3645
+818702786,A,Yangon,Member,Female,Electronic accessories,250.7085
+509358258,C,Naypyitaw,Member,Male,Health and beauty,106.5015
+811335569,B,Mandalay,Member,Male,Sports and travel,760.452
+301686974,C,Naypyitaw,Member,Female,Health and beauty,131.922
+954287514,C,Naypyitaw,Member,Male,Food and beverages,76.5765
+453926439,A,Yangon,Normal,Male,Sports and travel,271.278
+830531255,A,Yangon,Member,Male,Food and beverages,182.427
+307506895,C,Naypyitaw,Normal,Male,Fashion accessories,59.325
+683154151,B,Mandalay,Member,Female,Electronic accessories,225.015
+752298078,A,Yangon,Member,Male,Sports and travel,561.078
+909007699,A,Yangon,Member,Male,Home and lifestyle,97.818
+790293561,C,Naypyitaw,Normal,Male,Home and lifestyle,548.184
+454818159,C,Naypyitaw,Member,Male,Fashion accessories,54.9675
+620944428,B,Mandalay,Member,Male,Electronic accessories,41.7375
+421932504,A,Yangon,Normal,Female,Electronic accessories,756.168
+422526626,B,Mandalay,Member,Female,Electronic accessories,101.64
+747707288,B,Mandalay,Member,Female,Food and beverages,348.705
+982501591,C,Naypyitaw,Member,Female,Fashion accessories,85.512
+272828609,B,Mandalay,Member,Male,Sports and travel,335.895
+783607219,A,Yangon,Member,Female,Home and lifestyle,216.846
+585408344,A,Yangon,Member,Female,Food and beverages,175.014
+282758514,A,Yangon,Normal,Male,Sports and travel,335.013
+935833788,A,Yangon,Member,Male,Food and beverages,92.295
+261000461,A,Yangon,Member,Female,Electronic accessories,771.435
+303647588,C,Naypyitaw,Normal,Female,Fashion accessories,102.396
+746471479,A,Yangon,Member,Male,Sports and travel,807.66
+635543841,C,Naypyitaw,Normal,Female,Health and beauty,439.215
+790936226,B,Mandalay,Normal,Female,Electronic accessories,486.444
+812755055,C,Naypyitaw,Member,Female,Fashion accessories,485.5725
+689630376,B,Mandalay,Normal,Male,Electronic accessories,148.995
+593253146,B,Mandalay,Member,Male,Electronic accessories,317.835
+994249202,B,Mandalay,Normal,Male,Health and beauty,832.944
+447652985,C,Naypyitaw,Normal,Male,Fashion accessories,446.439
+581756785,C,Naypyitaw,Member,Female,Food and beverages,297.801
+453361515,C,Naypyitaw,Member,Male,Health and beauty,629.16
+628366060,A,Yangon,Member,Male,Food and beverages,331.128
+506467518,C,Naypyitaw,Member,Female,Electronic accessories,423.738
+545143089,B,Mandalay,Normal,Male,Home and lifestyle,193.074
+971502026,A,Yangon,Member,Female,Health and beauty,145.5825
+638800325,A,Yangon,Normal,Male,Food and beverages,84.7455
+987615538,C,Naypyitaw,Normal,Female,Health and beauty,122.472
+642331686,C,Naypyitaw,Member,Female,Home and lifestyle,329.196
+400073101,C,Naypyitaw,Normal,Male,Health and beauty,888.405
+858396298,B,Mandalay,Normal,Female,Health and beauty,435.12
+307599065,A,Yangon,Member,Female,Food and beverages,167.034
+957327891,B,Mandalay,Normal,Female,Home and lifestyle,514.605
+260719975,B,Mandalay,Member,Female,Food and beverages,91.8225
+847330433,C,Naypyitaw,Normal,Female,Electronic accessories,235.746
+607913169,A,Yangon,Normal,Female,Home and lifestyle,782.208
+284717651,A,Yangon,Member,Male,Fashion accessories,431.256
+602961687,A,Yangon,Member,Female,Food and beverages,313.74
+932609502,C,Naypyitaw,Normal,Female,Electronic accessories,223.587
+941890069,C,Naypyitaw,Member,Male,Sports and travel,44.9925
+735028763,A,Yangon,Normal,Female,Fashion accessories,397.614
+804503353,B,Mandalay,Normal,Male,Home and lifestyle,217.2555
+513909170,B,Mandalay,Member,Female,Electronic accessories,82.719
+690209174,C,Naypyitaw,Member,Female,Home and lifestyle,338.2155
+554328061,B,Mandalay,Normal,Female,Home and lifestyle,103.131
+236537926,C,Naypyitaw,Member,Female,Home and lifestyle,26.733
+448500765,C,Naypyitaw,Normal,Female,Sports and travel,611.079
+208860857,C,Naypyitaw,Member,Female,Sports and travel,221.886
+672026833,B,Mandalay,Normal,Female,Electronic accessories,57.876
+551223106,B,Mandalay,Member,Male,Sports and travel,92.7255
+371578225,A,Yangon,Member,Female,Health and beauty,374.409
+392112321,B,Mandalay,Normal,Female,Electronic accessories,833.9625
+853503472,B,Mandalay,Normal,Male,Sports and travel,53.151
+281465471,B,Mandalay,Normal,Male,Home and lifestyle,629.496
+357603337,C,Naypyitaw,Member,Female,Fashion accessories,175.035
+708878547,A,Yangon,Normal,Female,Food and beverages,781.62
+885877601,C,Naypyitaw,Normal,Male,Health and beauty,470.988
+641941725,B,Mandalay,Normal,Female,Home and lifestyle,397.845
+681555082,C,Naypyitaw,Member,Male,Home and lifestyle,270.018
+640560337,C,Naypyitaw,Normal,Female,Health and beauty,579.8415
+481462704,A,Yangon,Normal,Female,Sports and travel,469.77
+454319506,A,Yangon,Member,Female,Health and beauty,290.0835
+560157786,C,Naypyitaw,Normal,Female,Food and beverages,360.927
+329331127,A,Yangon,Normal,Male,Food and beverages,279.384
+817600610,C,Naypyitaw,Member,Male,Fashion accessories,943.299
+743356438,A,Yangon,Normal,Female,Home and lifestyle,479.64
+564391122,A,Yangon,Normal,Male,Health and beauty,266.6475
+599061640,A,Yangon,Member,Male,Health and beauty,74.088
+278231514,A,Yangon,Normal,Female,Electronic accessories,690.018
+281073163,C,Naypyitaw,Member,Male,Electronic accessories,176.925
+319261402,B,Mandalay,Member,Male,Fashion accessories,56.469
+999800261,C,Naypyitaw,Member,Male,Home and lifestyle,188.0025
+778023685,B,Mandalay,Normal,Female,Food and beverages,222.012
+396220020,B,Mandalay,Member,Male,Health and beauty,125.7165
+887140024,B,Mandalay,Member,Female,Home and lifestyle,68.985
+809929056,B,Mandalay,Member,Female,Food and beverages,263.97
+370042384,C,Naypyitaw,Member,Female,Food and beverages,88.368
+471748303,B,Mandalay,Member,Male,Home and lifestyle,415.233
+259458486,A,Yangon,Normal,Female,Fashion accessories,312.8895
+376441801,C,Naypyitaw,Member,Male,Food and beverages,477.1305
+311375293,B,Mandalay,Normal,Male,Electronic accessories,289.926
+263427787,C,Naypyitaw,Normal,Female,Home and lifestyle,165.9
+632158343,A,Yangon,Member,Female,Food and beverages,932.337
+699531283,C,Naypyitaw,Member,Male,Fashion accessories,96.579
+225625230,A,Yangon,Member,Male,Electronic accessories,43.869
+696196054,A,Yangon,Normal,Female,Fashion accessories,16.275
+249846741,C,Naypyitaw,Member,Male,Electronic accessories,304.983
+532655559,B,Mandalay,Normal,Male,Food and beverages,69.993
+786941676,B,Mandalay,Normal,Female,Electronic accessories,80.367
+389802243,A,Yangon,Normal,Female,Home and lifestyle,314.685
+337493619,A,Yangon,Member,Male,Home and lifestyle,255.1815
+861414652,A,Yangon,Normal,Female,Health and beauty,49.77
+979197924,B,Mandalay,Member,Female,Electronic accessories,181.0725
+281297498,B,Mandalay,Member,Female,Food and beverages,888.615
+682025335,B,Mandalay,Member,Male,Home and lifestyle,271.2885
+283466385,B,Mandalay,Normal,Male,Electronic accessories,640.038
+853277872,A,Yangon,Normal,Male,Home and lifestyle,252.252
+263432603,C,Naypyitaw,Normal,Male,Fashion accessories,180.873
+207403550,B,Mandalay,Member,Male,Fashion accessories,104.832
+608956522,A,Yangon,Normal,Female,Food and beverages,313.572
+902251771,B,Mandalay,Member,Male,Food and beverages,167.58
+428427082,B,Mandalay,Normal,Female,Electronic accessories,26.7225
+347973129,B,Mandalay,Normal,Female,Food and beverages,71.1585
+558448474,C,Naypyitaw,Member,Male,Food and beverages,250.278
+789200122,A,Yangon,Normal,Male,Health and beauty,244.23
+486098524,A,Yangon,Member,Female,Sports and travel,921.186
+354527701,C,Naypyitaw,Normal,Male,Health and beauty,734.706
+825583337,C,Naypyitaw,Normal,Male,Electronic accessories,708.3195
+400567529,B,Mandalay,Normal,Female,Fashion accessories,334.4775
+735550420,B,Mandalay,Normal,Female,Health and beauty,30.996
+919918517,B,Mandalay,Member,Male,Health and beauty,520.8
+949792667,C,Naypyitaw,Member,Male,Electronic accessories,864.57
+620542612,B,Mandalay,Member,Male,Health and beauty,633.108
+970794654,A,Yangon,Normal,Female,Food and beverages,296.94
+202037877,B,Mandalay,Normal,Female,Sports and travel,804.3
+961203925,A,Yangon,Normal,Male,Electronic accessories,121.863
+917174439,B,Mandalay,Normal,Male,Fashion accessories,183.645
+856653913,C,Naypyitaw,Member,Female,Electronic accessories,63.9975
+763386955,C,Naypyitaw,Normal,Male,Health and beauty,42.3675
+694247848,B,Mandalay,Normal,Female,Home and lifestyle,1022.49
+530736195,A,Yangon,Member,Male,Food and beverages,33.432
+326377541,A,Yangon,Normal,Male,Home and lifestyle,69.111
+599972265,A,Yangon,Member,Female,Fashion accessories,649.299
