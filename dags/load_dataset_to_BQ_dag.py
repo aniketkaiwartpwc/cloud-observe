@@ -96,7 +96,7 @@ with models.DAG(
         task_id = 't3_check_dataset_employee',
         use_legacy_sql=False,
         location = LOCATION,
-        sql = f'SELECT count(*) FROM `{PROJECT_ID}.dataobs.product_table`'
+        sql = f'SELECT count(*) FROM `{PROJECT_ID}.dataobs.employee_table`'
         )
     
 
@@ -104,14 +104,14 @@ with models.DAG(
         task_id = 't3_check_dataset_sales',
         use_legacy_sql=False,
         location = LOCATION,
-        sql = f'SELECT count(*) FROM `{PROJECT_ID}.dataobs.customer_table`'
+        sql = f'SELECT count(*) FROM `{PROJECT_ID}.dataobs.sales_table`'
         )
     
     t3_check_dataset_gender = BigQueryCheckOperator(
         task_id = 't3_check_dataset_gender',
         use_legacy_sql=False,
         location = LOCATION,
-        sql = f'SELECT count(*) FROM `{PROJECT_ID}.dataobs.customer_table`'
+        sql = f'SELECT count(*) FROM `{PROJECT_ID}.dataobs.gender_table`'
         )
     
     # BQ_Transformation
@@ -141,21 +141,21 @@ with models.DAG(
         task_id = 't4_transform_table_employee',
         use_legacy_sql = False,
         location = LOCATION,
-        sql = '/SQL/product_transform_table.sql'
+        sql = '/SQL/employee_transform_table.sql'
         )
 
     t4_transform_table_sales = BigQueryOperator(
         task_id = 't4_transform_table_sales',
         use_legacy_sql = False,
         location = LOCATION,
-        sql = '/SQL/customer_transform_table.sql'
+        sql = '/SQL/sales_transform_table.sql'
         )    
 
     t4_transform_table_gender = BigQueryOperator(
         task_id = 't4_transform_table_gender',
         use_legacy_sql = False,
         location = LOCATION,
-        sql = '/SQL/customer_transform_table.sql'
+        sql = '/SQL/gender_transform_table.sql'
         )
     
     #data check after transformation
@@ -187,14 +187,14 @@ with models.DAG(
         task_id = 't5_check_dataset_employee',
         use_legacy_sql=False,
         location = LOCATION,
-        sql = f'SELECT count(*) FROM `{PROJECT_ID}.dataobs.product_transform_table`'
+        sql = f'SELECT count(*) FROM `{PROJECT_ID}.dataobs.employee_transform_table`'
         )
     
     t5_check_dataset_sales = BigQueryCheckOperator(
         task_id = 't5_check_dataset_sales',
         use_legacy_sql=False,
         location = LOCATION,
-        sql = f'SELECT count(*) FROM `{PROJECT_ID}.dataobs.customer_transform_table`'
+        sql = f'SELECT count(*) FROM `{PROJECT_ID}.dataobs.sales_transform_table`'
         )
 
 
@@ -202,7 +202,7 @@ with models.DAG(
         task_id = 't5_check_dataset_gender',
         use_legacy_sql=False,
         location = LOCATION,
-        sql = f'SELECT count(*) FROM `{PROJECT_ID}.dataobs.customer_transform_table`'
+        sql = f'SELECT count(*) FROM `{PROJECT_ID}.dataobs.gender_transform_table`'
         )
     
 
