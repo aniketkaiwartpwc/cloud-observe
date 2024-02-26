@@ -64,7 +64,7 @@ with models.DAG(
 
     t3_dataflow_job_file_to_bq_log_daily_count_dag_level = DataflowCreatePythonJobOperator(
         task_id="t3_dataflow_job_file_to_bq_log_daily_count_dag_level",
-        py_file="gs://asia-south1-cloud-dataobs-359986fe-bucket/dataflow-functions/log_table_generator.py",
+        py_file="gs://asia-south1-cloud-dataobs-359986fe-bucket/dataflow-functions/log_table_dag_level.py",
         job_name="mobile-price-file-to-bq-raw",
         options = {
                 'project': 'pg-us-n-app-119329'
