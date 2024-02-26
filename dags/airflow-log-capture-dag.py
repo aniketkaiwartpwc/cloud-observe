@@ -32,8 +32,8 @@ with models.DAG(
         #schedule_interval=datetime.timedelta(days=1) removed for trigger from cloud function
         schedule_interval='0 8 * * 1-5',
 ) as dag:
-    t1_dataflow_job_file_to_bq_log = DataflowCreatePythonJobOperator(
-        task_id="t1_dataflow_job_file_to_bq_log",
+    t1_dataflow_job_file_to_bq_log_daily_count = DataflowCreatePythonJobOperator(
+        task_id="t1_dataflow_job_file_to_bq_log_daily_count",
         py_file="gs://asia-south1-cloud-dataobs-359986fe-bucket/dataflow-functions/log_table_generator.py",
         job_name="mobile-price-file-to-bq-raw",
         options = {
@@ -47,7 +47,39 @@ with models.DAG(
 
     )
 
+    t2_dataflow_job_file_to_bq_log_record_count = DataflowCreatePythonJobOperator(
+        task_id="t2_dataflow_job_file_to_bq_log_record_count",
+        py_file="gs://asia-south1-cloud-dataobs-359986fe-bucket/dataflow-functions/log_table_generator.py",
+        job_name="mobile-price-file-to-bq-raw",
+        options = {
+                'project': 'pg-us-n-app-119329'
+                },
+        dataflow_default_options = {
+            "temp_location": "gs://dataobs/tmp/",
+            "staging_location": "gs://dataobs/staging-data/",
+            "region": "asia-south1"
+            }
+
+    )
+
+    t3_dataflow_job_file_to_bq_log_daily_count_dag_level = DataflowCreatePythonJobOperator(
+        task_id="t3_dataflow_job_file_to_bq_log_daily_count_dag_level",
+        py_file="gs://asia-south1-cloud-dataobs-359986fe-bucket/dataflow-functions/log_table_generator.py",
+        job_name="mobile-price-file-to-bq-raw",
+        options = {
+                'project': 'pg-us-n-app-119329'
+                },
+        dataflow_default_options = {
+            "temp_location": "gs://dataobs/tmp/",
+            "staging_location": "gs://dataobs/staging-data/",
+            "region": "asia-south1"
+            }
+
+    )
+
+    
+
     start = DummyOperator(task_id='start')
     end = DummyOperator(task_id='end')
 
-start >> t1_dataflow_job_file_to_bq_log >> end
+start >> t1_dataflow_job_file_to_bq_log_daily_count >> t2_dataflow_job_file_to_bq_log_record_count >> t3_dataflow_job_file_to_bq_log_daily_count_dag_level >> end
