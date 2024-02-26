@@ -64,7 +64,7 @@ def run():
         write_to_bq = (
             result 
             | 'Write parsed results to BigQuery' >> beam.io.WriteToBigQuery(
-                'airflowlog_record_count',
+                'airflowlog_daily_count',
                 dataset = 'airflow_log_capture',
                 project= 'pg-us-n-app-119329',
                 schema= 'JobRunID:STRING, DagName:STRING, Run_Timestamp:STRING, RecordCount:STRING',
