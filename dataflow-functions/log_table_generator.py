@@ -54,7 +54,7 @@ def run():
         #print("result",result)
 
         write_to_bq = result | 'Write parsed results to BigQuery' >> beam.io.Write(beam.io.WriteToBigQuery(
-                                                                                'airflowlog_parsed_data_daily_count',
+                                                                                'airflowlog_parsed_data',
                                                                                 dataset = 'airflow_log_capture',
                                                                                 project= 'pg-us-n-app-119329',
                                                                                 schema= 'SCHEMA_AUTODETECT',
