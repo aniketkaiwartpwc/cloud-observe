@@ -65,7 +65,14 @@ with models.DAG(
         dag = dag
         )
     
-    
+    trigger_customer_insert_count_dag = TriggerDagRunOperator(
+    task_id='trigger_customer_insert_count_dag',
+    trigger_dag_id='insert_customer_tbl_count_dag',
+    wait_for_completion=True,
+    reset_dag_run=True,
+    poke_interval=30,
+    trigger_rule='none_failed_min_one_success'
+    )
     t2_trigger_load_dataset_to_BQ_dag_customer = TriggerDagRunOperator(
       task_id='t2_trigger_load_dataset_to_BQ_dag_customer',
         trigger_dag_id='customer_load_dataset_to_BQ_dag',
@@ -80,7 +87,7 @@ with models.DAG(
         dag = dag
         )
     
-    start_pipeline >> t1_dataflow_job_file_to_bq_customer
+    start_pipeline >> trigger_customer_insert_count_dag >> t1_dataflow_job_file_to_bq_customer
 
     t1_dataflow_job_file_to_bq_customer >> t2_trigger_load_dataset_to_BQ_dag_customer
 
