@@ -5,15 +5,17 @@ from statistics import  mean
 import logging
 import argparse
 import re
+import datetime
 
 
 table_spec = 'dataobs.product_table'
-table_schema='ProductID:INT64, ProductName:STRING, Category:STRING, Price:FLOAT'
+table_schema='ProductID:INT64, ProductName:STRING, Category:STRING, Price:FLOAT, Job_Run_Date:TIMESTAMP'
 
 class DataIngestion:
     def parse_method(self, string_input):
         values = re.split(",", re.sub('\r\n', '', re.sub('"', '',string_input)))
-        row = dict(zip(('ProductID', 'ProductName', 'Category', 'Price'),values))
+        values.append(datetime.datetime.now().isoformat())  # Add the current system date and time
+        row = dict(zip(('ProductID', 'ProductName', 'Category', 'Price', 'Job_Run_Date'),values))
         return row
 
 class GreaterThanAvg(beam.DoFn):
@@ -54,7 +56,7 @@ def run(argv=None, save_main_session=True):
             | "Data Ingestion " >> beam.Map(lambda s: dataingestion.parse_method(s)) \
             #| "write to file " >> beam.io.WriteToText(known_args.output)
             | "Write to BQ" >> beam.io.WriteToBigQuery(table_spec, schema=table_schema,
-                                                      write_disposition=beam.io.BigQueryDisposition.WRITE_TRUNCATE,
+                                                      write_disposition=beam.io.BigQueryDisposition.WRITE_APPEND,
                                                        create_disposition=beam.io.BigQueryDisposition.CREATE_IF_NEEDED)
             )
 
