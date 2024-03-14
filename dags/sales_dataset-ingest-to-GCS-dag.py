@@ -43,7 +43,7 @@ with models.DAG(
     #dataset_ingest_to_GCS_dag Product
     t1_dataflow_job_file_to_bq_sales = DataflowCreatePythonJobOperator(
         task_id="t1_dataflow_job_file_to_bq_sales",
-        py_file="gs://asia-south1-cloud-dataobs-c1d6a270-bucket/dataflow-functions/sales_tbl_function.py",
+        py_file="gs://asia-south1-cloud-dataobs-359986fe-bucket/dataflow-functions/sales_tbl_function.py",
         job_name="sales-file-to-bq-raw",
         options = {
                 'project': 'pg-us-n-app-119329'
