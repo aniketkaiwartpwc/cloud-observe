@@ -86,7 +86,7 @@ with models.DAG(
         dag = dag
         )
     
-    start_pipeline >> trigger_sales_insert_count_dag >> t1_dataflow_job_file_to_bq_sales
+    start_pipeline >> t1_dataflow_job_file_to_bq_sales
 
     t1_dataflow_job_file_to_bq_sales >> t2_trigger_load_dataset_to_BQ_dag_sales
 
