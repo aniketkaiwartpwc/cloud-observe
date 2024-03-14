@@ -45,7 +45,7 @@ with models.DAG(
     #dataset_ingest_to_GCS_dag Product
     t1_dataflow_job_file_to_bq_customer = DataflowCreatePythonJobOperator(
         task_id="t1_dataflow_job_file_to_bq_customer",
-        py_file="gs://asia-south1-cloud-dataobs-c1d6a270-bucket/dataflow-functions/customer_tbl_function.py",
+        py_file="gs://asia-south1-cloud-dataobs-359986fe-bucket/dataflow-functions/customer_tbl_function.py",
         job_name="customer-file-to-bq-raw",
         options = {
                 'project': 'pg-us-n-app-119329'
@@ -65,14 +65,7 @@ with models.DAG(
         dag = dag
         )
     
-    trigger_customer_insert_count_dag = TriggerDagRunOperator(
-    task_id='trigger_customer_insert_count_dag',
-    trigger_dag_id='insert_customer_tbl_count_dag',
-    wait_for_completion=True,
-    reset_dag_run=True,
-    poke_interval=30,
-    trigger_rule='none_failed_min_one_success'
-    )
+
     t2_trigger_load_dataset_to_BQ_dag_customer = TriggerDagRunOperator(
       task_id='t2_trigger_load_dataset_to_BQ_dag_customer',
         trigger_dag_id='customer_load_dataset_to_BQ_dag',
@@ -87,7 +80,7 @@ with models.DAG(
         dag = dag
         )
     
-    start_pipeline >> trigger_customer_insert_count_dag >> t1_dataflow_job_file_to_bq_customer
+    start_pipeline >> t1_dataflow_job_file_to_bq_customer
 
     t1_dataflow_job_file_to_bq_customer >> t2_trigger_load_dataset_to_BQ_dag_customer
 
