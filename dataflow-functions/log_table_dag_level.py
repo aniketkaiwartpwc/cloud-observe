@@ -57,7 +57,7 @@ def run():
                                                                                 'airflowlog_test_daglevel',
                                                                                 dataset = 'airflow_log_capture',
                                                                                 project= 'pg-us-n-app-119329',
-                                                                                schema= 'SCHEMA_AUTODETECT',
+                                                                                schema= 'Run_Timestamp:TIMESTAMP, DagName:STRING, DagStatus:STRING, Start_Date:TIMESTAMP, End_Date:TIMESTAMP',
                                                                                 create_disposition=beam.io.BigQueryDisposition.CREATE_IF_NEEDED,
                                                                                 write_disposition=beam.io.BigQueryDisposition.WRITE_APPEND
                                                                             )
