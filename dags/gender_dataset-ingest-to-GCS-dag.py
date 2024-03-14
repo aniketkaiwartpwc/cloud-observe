@@ -40,7 +40,7 @@ with models.DAG(
     #dataset_ingest_to_GCS_dag Product
     t1_dataflow_job_file_to_bq_gender = DataflowCreatePythonJobOperator(
         task_id="t1_dataflow_job_file_to_bq_gender",
-        py_file="gs://asia-south1-cloud-dataobs-c1d6a270-bucket/dataflow-functions/gender_tbl_function.py",
+        py_file="gs://asia-south1-cloud-dataobs-359986fe-bucket/dataflow-functions/gender_tbl_function.py",
         job_name="gender-file-to-bq-raw",
         options = {
                 'project': 'pg-us-n-app-119329'
@@ -58,14 +58,6 @@ with models.DAG(
         task_id = 'start_pipeline',
         dag = dag
         )
-    trigger_gender_insert_count_dag = TriggerDagRunOperator(
-      task_id='trigger_gender_insert_count_dag',
-        trigger_dag_id='insert_gender_tbl_count_dag',
-        wait_for_completion=True,
-        reset_dag_run=True,
-        poke_interval=30,
-        trigger_rule='none_failed_min_one_success'
-    )
     
     t2_trigger_load_dataset_to_BQ_dag_gender = TriggerDagRunOperator(
       task_id='t2_trigger_load_dataset_to_BQ_dag_gender',
@@ -81,7 +73,7 @@ with models.DAG(
         dag = dag
         )
     
-    start_pipeline >> trigger_gender_insert_count_dag >> t1_dataflow_job_file_to_bq_gender
+    start_pipeline >> t1_dataflow_job_file_to_bq_gender
 
     t1_dataflow_job_file_to_bq_gender >> t2_trigger_load_dataset_to_BQ_dag_gender
 
