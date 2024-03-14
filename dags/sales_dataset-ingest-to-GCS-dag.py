@@ -62,16 +62,7 @@ with models.DAG(
         python_callable=delay,
         dag = dag
         )
-    trigger_sales_insert_count_dag = TriggerDagRunOperator(
-      task_id='trigger_sales_insert_count_dag',
-        trigger_dag_id='insert_sales_tbl_count_dag',
-        wait_for_completion=True,
-        reset_dag_run=True,
-        poke_interval=30,
-        trigger_rule='none_failed_min_one_success'
-    )
-    
-    
+
     t2_trigger_load_dataset_to_BQ_dag_sales = TriggerDagRunOperator(
       task_id='t2_trigger_load_dataset_to_BQ_dag_sales',
         trigger_dag_id='sales_load_dataset_to_BQ_dag',
