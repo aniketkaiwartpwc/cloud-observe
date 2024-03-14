@@ -32,7 +32,7 @@ def run(argv=None, save_main_session=True):
             |"Split" >> beam.Map(lambda x:x.split(","))
             | "Data Ingestion " >> beam.Map(lambda s: dataingestion.parse_method(s)) \
             | "Write to BQ" >> beam.io.WriteToBigQuery(table_spec, schema=table_schema,
-                                                      write_disposition=beam.io.BigQueryDisposition.WRITE_APPEND,
+                                                      write_disposition=beam.io.BigQueryDisposition.WRITE_TRUNCATE,
                                                        create_disposition=beam.io.BigQueryDisposition.CREATE_IF_NEEDED)
             )
 
